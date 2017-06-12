@@ -28,6 +28,7 @@
             <string>toby_speed = 5;
 desliza = false;
 
+
 </string>
           </argument>
         </arguments>
@@ -73,6 +74,9 @@ if desliza == false
             obj_toby.sprite_index = spr_toby_mov_dow
     }
 }
+
+
+
 if (keyboard_check_released(vk_right) or keyboard_check_released(vk_left) )
 {
     hspeed  = 0
@@ -92,18 +96,22 @@ if (keyboard_check_released(vk_up) or keyboard_check_released(vk_down) )
     obj_toby.image_speed = 0;
 }
 
-//colision con el piso
-if place_meeting(x,y,obj_hielo_desliza) and (desliza == false or desliza == true)
-{
-    speed = toby_speed*3;
-    desliza = true;
-}
-if !place_meeting(x,y,obj_hielo_desliza) and desliza == true
-{
-    desliza = false;
-    speed = 0;
-}
 
+//colision con el piso, solo aplica para hielo y niveles resbaladizos
+
+if(CONTROL.hielo == 1)
+{
+    if place_meeting(x,y,obj_hielo_desliza) and (desliza == false or desliza == true)
+    {
+        speed = toby_speed*3;
+        desliza = true;
+    }
+    if !place_meeting(x,y,obj_hielo_desliza) and desliza == true
+    {
+        desliza = false;
+        speed = 0;
+    }
+}
 </string>
           </argument>
         </arguments>
@@ -121,5 +129,8 @@ if !place_meeting(x,y,obj_hielo_desliza) and desliza == true
   <PhysicsObjectFriction>0.200000002980232</PhysicsObjectFriction>
   <PhysicsObjectAwake>-1</PhysicsObjectAwake>
   <PhysicsObjectKinematic>0</PhysicsObjectKinematic>
-  <PhysicsShapePoints/>
+  <PhysicsShapePoints>
+    <point>16,16</point>
+    <point>16,16</point>
+  </PhysicsShapePoints>
 </object>
