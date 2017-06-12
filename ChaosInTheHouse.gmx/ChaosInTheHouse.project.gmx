@@ -6,25 +6,43 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
-    <sprite>sprites\spr_toby</sprite>
-    <sprite>sprites\spr_piso_hielo</sprite>
-    <sprite>sprites\spr_bloque_hielo</sprite>
-    <sprite>sprites\spr_toby_mov_izq</sprite>
-    <sprite>sprites\spr_toby_mov_der</sprite>
-    <sprite>sprites\spr_toby_mov_up</sprite>
-    <sprite>sprites\spr_toby_mov_dow</sprite>
-    <sprite>sprites\spr_toby_izq</sprite>
-    <sprite>sprites\sprite8</sprite>
-    <sprite>sprites\spr_CONTROL</sprite>
+    <sprites name="spr_Principal">
+      <sprite>sprites\spr_toby</sprite>
+      <sprite>sprites\spr_toby_mov_izq</sprite>
+      <sprite>sprites\spr_toby_mov_der</sprite>
+      <sprite>sprites\spr_toby_mov_up</sprite>
+      <sprite>sprites\spr_toby_mov_dow</sprite>
+      <sprite>sprites\spr_toby_izq</sprite>
+    </sprites>
+    <sprites name="spr_Ice">
+      <sprite>sprites\spr_bloque_hielo</sprite>
+      <sprite>sprites\spr_piso_hielo</sprite>
+      <sprite>sprites\sprite8</sprite>
+    </sprites>
+    <sprites name="spr_GENERAL">
+      <sprite>sprites\spr_CONTROL</sprite>
+    </sprites>
+    <sprites name="spr_Fire">
+      <sprite>sprites\spr_lava</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
   <objects name="objects">
-    <object>objects\obj_toby</object>
-    <object>objects\obj_hielo_desliza</object>
-    <object>objects\obj_bloque_hielo</object>
-    <object>objects\CONTROL</object>
-    <object>objects\activeFireLevel</object>
+    <objects name="obj_Principales">
+      <object>objects\obj_toby</object>
+    </objects>
+    <objects name="objs_Fire">
+      <object>objects\obj_redHotLava</object>
+      <object>objects\activeFireLevel</object>
+    </objects>
+    <objects name="obj_General">
+      <object>objects\CONTROL</object>
+    </objects>
+    <objects name="obj_Ice">
+      <object>objects\obj_hielo_desliza</object>
+      <object>objects\obj_bloque_hielo</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\iceroom_1</room>
