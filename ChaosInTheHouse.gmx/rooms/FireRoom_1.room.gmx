@@ -13,7 +13,6 @@
   <code></code>
   <enableViews>0</enableViews>
   <clearViewBackground>-1</clearViewBackground>
-  <clearDisplayBuffer>-1</clearDisplayBuffer>
   <makerSettings>
     <isSet>0</isSet>
     <w>0</w>
@@ -54,9 +53,9 @@
     <instance objName="activeFireLevel" x="0" y="0" name="inst_33EEE254" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_toby" x="32" y="288" name="inst_C95C4355" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_stove" x="192" y="0" name="inst_70304A64" locked="0" code="" scaleX="2" scaleY="1.42222225666046" colour="4294967295" rotation="0"/>
-    <instance objName="obj_redHotLava" x="256" y="0" name="inst_728AC8E0" locked="0" code="" scaleX="0.551724135875702" scaleY="0.551724135875702" colour="4294967295" rotation="0"/>
-    <instance objName="obj_redHotLava" x="288" y="0" name="inst_FB64F505" locked="0" code="" scaleX="0.551724135875702" scaleY="0.551724135875702" colour="4294967295" rotation="0"/>
-    <instance objName="obj_redHotLava" x="320" y="0" name="inst_9467265A" locked="0" code="" scaleX="0.551724135875702" scaleY="0.551724135875702" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="256" y="0" name="inst_728AC8E0" locked="0" code="" scaleX="0.275862067937851" scaleY="0.275862067937851" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="288" y="0" name="inst_FB64F505" locked="0" code="" scaleX="0.275862008333206" scaleY="0.275862008333206" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="320" y="0" name="inst_9467265A" locked="0" code="" scaleX="0.275862067937851" scaleY="0.275862067937851" colour="4294967295" rotation="0"/>
     <instance objName="obj_pared_obs1" x="0" y="160" name="inst_06E63317" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_pared_obs1" x="32" y="160" name="inst_476765DE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_pared_obs1" x="64" y="160" name="inst_331CCA7D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -119,6 +118,7 @@
     <instance objName="obj_pared_obs1" x="736" y="576" name="inst_AC65992F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_pared_obs1" x="768" y="576" name="inst_FA7AC0B8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_generate_claves" x="64" y="128" name="inst_94C600BB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="352" y="0" name="inst_01FA8700" locked="0" code="" scaleX="0.275862067937851" scaleY="0.275862067937851" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
