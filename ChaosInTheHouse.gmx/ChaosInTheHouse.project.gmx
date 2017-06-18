@@ -27,6 +27,16 @@
       <sprite>sprites\spr_mueble</sprite>
       <sprite>sprites\spr_nevera</sprite>
       <sprite>sprites\spr_bolaespinada</sprite>
+      <sprite>sprites\spr_stove</sprite>
+      <sprite>sprites\spr_paredf_front</sprite>
+      <sprite>sprites\spr_paredf_normal</sprite>
+      <sprites name="some_items">
+        <sprite>sprites\spr_enter2</sprite>
+        <sprite>sprites\spr_enter3</sprite>
+        <sprite>sprites\spr_enter4</sprite>
+        <sprite>sprites\spr_enter1</sprite>
+        <sprite>sprites\spr_enterOk</sprite>
+      </sprites>
     </sprites>
     <sprites name="spr_Boss">
       <sprite>sprites\spr_pared</sprite>
@@ -35,6 +45,9 @@
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\array.gml</script>
+  </scripts>
   <objects name="objects">
     <objects name="obj_Principales">
       <object>objects\obj_toby</object>
@@ -43,6 +56,16 @@
       <object>objects\obj_redHotLava</object>
       <object>objects\activeFireLevel</object>
       <object>objects\obj_mueble</object>
+      <object>objects\obj_stove</object>
+      <object>objects\obj_pared_obs1</object>
+      <object>objects\obj_pare_obs2</object>
+      <objects name="Items">
+        <object>objects\obj_clave1</object>
+        <object>objects\obj_clave2</object>
+        <object>objects\obj_clave3</object>
+        <object>objects\obj_clave4</object>
+        <object>objects\obj_generate_claves</object>
+      </objects>
     </objects>
     <objects name="obj_General">
       <object>objects\CONTROL</object>
