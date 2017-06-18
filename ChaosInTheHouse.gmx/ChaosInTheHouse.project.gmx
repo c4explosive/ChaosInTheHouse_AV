@@ -45,6 +45,8 @@
         <sprite>sprites\spr_enter1</sprite>
         <sprite>sprites\spr_enterOk</sprite>
       </sprites>
+      <sprite>sprites\spr_fregador</sprite>
+      <sprite>sprites\spr_mueble_prendio</sprite>
     </sprites>
     <sprites name="spr_Boss">
       <sprite>sprites\spr_pared</sprite>
@@ -82,6 +84,7 @@
         <object>objects\obj_clave4</object>
         <object>objects\obj_generate_claves</object>
       </objects>
+      <object>objects\obj_freg</object>
     </objects>
     <objects name="obj_General">
       <object>objects\CONTROL</object>
