@@ -24,9 +24,30 @@
     </sprites>
     <sprites name="spr_GENERAL">
       <sprite>sprites\spr_CONTROL</sprite>
+      <sprites name="letreros">
+        <sprite>sprites\spr_jugar</sprite>
+        <sprite>sprites\spr_menu</sprite>
+        <sprite>sprites\spr_enter</sprite>
+        <sprite>sprites\spr_creditos</sprite>
+        <sprite>sprites\spr_salir</sprite>
+        <sprite>sprites\spr_instru</sprite>
+      </sprites>
     </sprites>
     <sprites name="spr_Fire">
       <sprite>sprites\spr_lava</sprite>
+      <sprite>sprites\spr_mueble</sprite>
+      <sprite>sprites\spr_nevera</sprite>
+      <sprite>sprites\spr_bolaespinada</sprite>
+      <sprite>sprites\spr_stove</sprite>
+      <sprite>sprites\spr_paredf_front</sprite>
+      <sprite>sprites\spr_paredf_normal</sprite>
+      <sprites name="some_items">
+        <sprite>sprites\spr_enter2</sprite>
+        <sprite>sprites\spr_enter3</sprite>
+        <sprite>sprites\spr_enter4</sprite>
+        <sprite>sprites\spr_enter1</sprite>
+        <sprite>sprites\spr_enterOk</sprite>
+      </sprites>
     </sprites>
     <sprites name="spr_Boss">
       <sprite>sprites\spr_pared</sprite>
@@ -38,11 +59,11 @@
       <sprite>sprites\spr_next</sprite>
     </sprites>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\bg_pantallainicio</background>
+    <background>background\bg_menu</background>
+  </backgrounds>
   <paths name="paths"/>
-  <scripts name="scripts">
-    <script>scripts\check_direction.gml</script>
-  </scripts>
   <objects name="objects">
     <objects name="obj_Principales">
       <object>objects\obj_toby</object>
@@ -50,9 +71,28 @@
     <objects name="objs_Fire">
       <object>objects\obj_redHotLava</object>
       <object>objects\activeFireLevel</object>
+      <object>objects\obj_mueble</object>
+      <object>objects\obj_stove</object>
+      <object>objects\obj_pared_obs1</object>
+      <object>objects\obj_pare_obs2</object>
+      <objects name="Items">
+        <object>objects\obj_clave1</object>
+        <object>objects\obj_clave2</object>
+        <object>objects\obj_clave3</object>
+        <object>objects\obj_clave4</object>
+        <object>objects\obj_generate_claves</object>
+      </objects>
     </objects>
     <objects name="obj_General">
       <object>objects\CONTROL</object>
+      <objects name="obj_letreros">
+        <object>objects\obj_enter</object>
+        <object>objects\obj_jugar</object>
+        <object>objects\obj_salir</object>
+        <object>objects\obj_menu</object>
+        <object>objects\obj_creditos</object>
+        <object>objects\obj_instru</object>
+      </objects>
     </objects>
     <objects name="obj_Ice">
       <object>objects\obj_hielo_desliza</object>
@@ -70,11 +110,11 @@
     </objects>
   </objects>
   <rooms name="rooms">
+    <room>rooms\room_p_inicio</room>
+    <room>rooms\room_menu</room>
     <room>rooms\iceroom_1</room>
     <room>rooms\iceroom_2</room>
     <room>rooms\FireRoom_1</room>
-    <room>rooms\BossRoom</room>
-    <room>rooms\game_over</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
