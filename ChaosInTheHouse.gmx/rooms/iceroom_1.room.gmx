@@ -52,19 +52,65 @@
   </views>
   <instances>
     <instance objName="obj_toby" x="128" y="128" name="inst_48BA5CED" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_hielo_desliza" x="288" y="128" name="inst_B82092E8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_hielo_desliza" x="352" y="128" name="inst_1D2BF29D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_hielo_desliza" x="416" y="128" name="inst_C7A764D7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_hielo_desliza" x="480" y="128" name="inst_EE339C89" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_hielo_desliza" x="544" y="128" name="inst_0EB869AC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_hielo_desliza" x="288" y="192" name="inst_EC5DEB3E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_hielo_desliza" x="352" y="192" name="inst_978EA9BD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_hielo_desliza" x="416" y="192" name="inst_1A983008" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_hielo_desliza" x="480" y="192" name="inst_B9A1759F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_hielo_desliza" x="544" y="192" name="inst_658147BD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_hielo_desliza" x="512" y="288" name="inst_B82092E8" locked="0" code="" scaleX="7.27500009536743" scaleY="7.75" colour="4294967295" rotation="0"/>
     <instance objName="CONTROL" x="128" y="64" name="inst_9622D7A5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="CONTROL" x="64" y="128" name="inst_324D0EED" locked="0" code="" scaleX="0" scaleY="0" colour="4294967295" rotation="0"/>
-    <instance objName="obj_bloque_hielo" x="352" y="128" name="inst_252D13A7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_bloque_hielo" x="416" y="128" name="inst_476593E8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_bloque_hielo" x="608" y="64" name="inst_CCB6326D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_bloque_hielo" x="576" y="480" name="inst_8D8ACFB0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_bloque_hielo" x="736" y="448" name="inst_DCE1B4BE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_puas_hielo" x="256" y="32" name="inst_862C9734" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_puas_hielo" x="288" y="32" name="inst_047A14C0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_puas_hielo" x="320" y="32" name="inst_9C4C4BF7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_puas_hielo" x="352" y="32" name="inst_9BC8CDF1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_puas_hielo" x="384" y="32" name="inst_F0B07737" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_puas_hielo" x="416" y="32" name="inst_65D79CC1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_puas_hielo" x="448" y="32" name="inst_26E37AB2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_puas_hielo" x="480" y="32" name="inst_87DD29FC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_puas_hielo" x="512" y="32" name="inst_5F04FE32" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_puas_hielo" x="544" y="32" name="inst_85E47138" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_puas_hielo" x="576" y="32" name="inst_2816FD86" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_puas_hielo" x="608" y="32" name="inst_2949DA85" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_puas_hielo" x="640" y="32" name="inst_E2940737" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_puas_hielo" x="672" y="32" name="inst_6799FA4F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_puas_hielo" x="704" y="32" name="inst_80AEDAA7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_puas_hielo" x="736" y="32" name="inst_CBDC5416" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_puas_hielo" x="768" y="32" name="inst_C02CF384" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_puas_hielo" x="768" y="64" name="inst_DC3C2994" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_puas_hielo" x="768" y="96" name="inst_CA5BA3D5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_puas_hielo" x="768" y="128" name="inst_23C72E2F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_puas_hielo" x="768" y="160" name="inst_08106C83" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_puas_hielo" x="768" y="192" name="inst_C730AA26" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_puas_hielo" x="768" y="224" name="inst_52FA61A7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_puas_hielo" x="768" y="256" name="inst_08365BB2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_puas_hielo" x="768" y="288" name="inst_ED63B5A0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_puas_hielo" x="768" y="320" name="inst_9E291197" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_puas_hielo" x="768" y="352" name="inst_6B44BA07" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_puas_hielo" x="768" y="384" name="inst_07FC3538" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_puas_hielo" x="768" y="416" name="inst_18EEC593" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_puas_hielo" x="768" y="448" name="inst_A3CA882E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_puas_hielo" x="768" y="480" name="inst_2EDCC88D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_puas_hielo" x="768" y="512" name="inst_D2F73C5F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_puas_hielo" x="768" y="544" name="inst_71DDF1EE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_puas_hielo" x="768" y="576" name="inst_485EE304" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_puas_hielo" x="672" y="576" name="inst_4B6FA0BA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_puas_hielo" x="640" y="576" name="inst_0EFF1A4A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_puas_hielo" x="608" y="576" name="inst_22F2F24C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_puas_hielo" x="576" y="576" name="inst_ABBD36FB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_puas_hielo" x="544" y="576" name="inst_4CA3C34E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_puas_hielo" x="512" y="576" name="inst_44B7BBDF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_puas_hielo" x="480" y="576" name="inst_70FC5983" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_puas_hielo" x="448" y="576" name="inst_35C7405E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_puas_hielo" x="416" y="576" name="inst_BC286690" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_puas_hielo" x="384" y="576" name="inst_823221A0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_puas_hielo" x="352" y="576" name="inst_590CC821" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_puas_hielo" x="320" y="576" name="inst_E2D1ADBE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_puas_hielo" x="288" y="576" name="inst_B6EFA00B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_puas_hielo" x="256" y="576" name="inst_BB95A55D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_puas_hielo" x="736" y="576" name="inst_6DF0C416" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_music_control" x="32" y="320" name="inst_A28C2EF6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_puas_hielo" x="544" y="480" name="inst_5A7DC451" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_next" x="704" y="576" name="inst_3D16D03C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

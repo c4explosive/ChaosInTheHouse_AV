@@ -27,6 +27,7 @@
             <kind>1</kind>
             <string>toby_speed = 5;
 desliza = false;
+puede_mover = true
 
 
 </string>
@@ -52,9 +53,11 @@ desliza = false;
           <argument>
             <kind>1</kind>
             <string>//movimiento del personaje
-if desliza == false 
+if puede_mover == true
 {
     obj_toby.image_speed = 0.5;
+    if speed == 0
+        image_speed = 0;
     switch(keyboard_key)
     {
         case vk_right:
@@ -76,42 +79,30 @@ if desliza == false
 }
 
 
-
 if (keyboard_check_released(vk_right) or keyboard_check_released(vk_left) )
 {
-    hspeed  = 0
+    
     if hspeed &gt; 0
-        obj_toby.sprite_index = spr_toby_mov_der.sprite_index = 0;
+        obj_toby.image_index =  4;
     if hspeed &lt; 0
-        obj_toby.sprite_index = spr_toby_mov_dow.sprite_index = 0;
-    obj_toby.image_speed = 0;
+        obj_toby.image_index =   4;
+    hspeed  = 0
+   // obj_toby.image_index = 1;
+   image_speed = 0;
 }
 if (keyboard_check_released(vk_up) or keyboard_check_released(vk_down) )
 {
-    vspeed = 0;
+    
     if vspeed &gt; 0
-        obj_toby.sprite_index = spr_toby_mov_up.sprite_index = 0;
+        obj_toby.image_index =  4;
     if vspeed &lt; 0
-        obj_toby.sprite_index = spr_toby_mov_dow.sprite_index = 0;
-    obj_toby.image_speed = 0;
+        obj_toby.image_index =   4;
+    //obj_toby.image_index = 1;
+    vspeed = 0;
 }
 
 
-//colision con el piso, solo aplica para hielo y niveles resbaladizos
 
-if(CONTROL.hielo == 1)
-{
-    if place_meeting(x,y,obj_hielo_desliza) and (desliza == false or desliza == true)
-    {
-        speed = toby_speed*3;
-        desliza = true;
-    }
-    if !place_meeting(x,y,obj_hielo_desliza) and desliza == true
-    {
-        desliza = false;
-        speed = 0;
-    }
-}
 </string>
           </argument>
         </arguments>
