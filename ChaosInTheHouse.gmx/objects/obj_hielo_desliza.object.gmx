@@ -109,16 +109,16 @@
         switch(key)//depiendo de la tecla, le dara una velocidad correspondiente
         {
             case vk_right: direct = 1 
-            obj_toby.hspeed = direct*obj_toby.toby_speed*3
+            obj_toby.hspeed = direct*obj_toby.toby_speed*2
             break;
             case vk_left: direct = -1 
-            obj_toby.hspeed = direct*obj_toby.toby_speed*3
+            obj_toby.hspeed = direct*obj_toby.toby_speed*2
             break;
             case vk_up: direct = -1 
-            obj_toby.vspeed = direct*obj_toby.toby_speed*3
+            obj_toby.vspeed = direct*obj_toby.toby_speed*2
             break;
             case vk_down: direct = 1 
-            obj_toby.vspeed = direct*obj_toby.toby_speed*3
+            obj_toby.vspeed = direct*obj_toby.toby_speed*2
             break;
         }
     obj_toby.puede_mover = false//anula el que el usuario pueda mover a toby
