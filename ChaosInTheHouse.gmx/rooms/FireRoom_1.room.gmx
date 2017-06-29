@@ -51,7 +51,6 @@
   </views>
   <instances>
     <instance objName="activeFireLevel" x="0" y="0" name="inst_33EEE254" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_toby" x="32" y="288" name="inst_C95C4355" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_stove" x="192" y="0" name="inst_70304A64" locked="0" code="" scaleX="2" scaleY="1.42222225666046" colour="4294967295" rotation="0"/>
     <instance objName="obj_redHotLava" x="256" y="0" name="inst_728AC8E0" locked="0" code="" scaleX="0.275862067937851" scaleY="0.275862067937851" colour="4294967295" rotation="0"/>
     <instance objName="obj_redHotLava" x="288" y="0" name="inst_FB64F505" locked="0" code="" scaleX="0.275862008333206" scaleY="0.275862008333206" colour="4294967295" rotation="0"/>
@@ -140,6 +139,7 @@
     <instance objName="obj_redHotLava" x="288" y="480" name="inst_7EF0859F" locked="0" code="" scaleX="0.275862067937851" scaleY="0.275862067937851" colour="4294967295" rotation="0"/>
     <instance objName="obj_freg" x="192" y="160" name="inst_0698E82B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_mueble" x="256" y="352" name="inst_3B1938B8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_toby" x="32" y="256" name="inst_7D21D33A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

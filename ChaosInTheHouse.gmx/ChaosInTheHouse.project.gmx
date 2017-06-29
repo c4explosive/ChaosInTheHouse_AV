@@ -60,6 +60,24 @@
       <sprite>sprites\spr_game_over</sprite>
       <sprite>sprites\spr_next</sprite>
     </sprites>
+    <sprites name="spr_jardin">
+      <sprite>sprites\spr_arb</sprite>
+      <sprite>sprites\spr_arb2</sprite>
+      <sprite>sprites\spr_arb3</sprite>
+      <sprite>sprites\spr_arb4</sprite>
+      <sprite>sprites\spr_casa</sprite>
+      <sprite>sprites\spr_col</sprite>
+      <sprite>sprites\spr_fuente</sprite>
+      <sprite>sprites\spr_mesa</sprite>
+      <sprite>sprites\spr_piso1</sprite>
+      <sprite>sprites\spr_piso2</sprite>
+      <sprite>sprites\spr_piso4</sprite>
+      <sprite>sprites\spr_piso5</sprite>
+      <sprite>sprites\spr_piso6</sprite>
+      <sprite>sprites\spr_silla1</sprite>
+      <sprite>sprites\spr_silla2</sprite>
+      <sprite>sprites\spr_suelo</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_pantallainicio</background>
@@ -78,6 +96,23 @@
     <script>scripts\src_push.gml</script>
   </scripts>
   <objects name="objects">
+    <objects name="obj_jardin">
+      <object>objects\obj_arb</object>
+      <object>objects\obj_arb2</object>
+      <object>objects\obj_arb3</object>
+      <object>objects\obj_arb4</object>
+      <object>objects\obj_casa</object>
+      <object>objects\obj_col</object>
+      <object>objects\obj_mesa</object>
+      <object>objects\obj_piso2</object>
+      <object>objects\obj_piso4</object>
+      <object>objects\obj_piso5</object>
+      <object>objects\obj_piso6</object>
+      <object>objects\obj_silla1</object>
+      <object>objects\obj_silla2</object>
+      <object>objects\object42</object>
+      <object>objects\obj_fuente</object>
+    </objects>
     <objects name="obj_Principales">
       <object>objects\obj_toby</object>
     </objects>
@@ -107,10 +142,11 @@
         <object>objects\obj_creditos</object>
         <object>objects\obj_instru</object>
       </objects>
+      <object>objects\obj_prueba1</object>
     </objects>
     <objects name="obj_Ice">
-      <object>objects\obj_hielo_desliza</object>
       <object>objects\obj_bloque_hielo</object>
+      <object>objects\obj_hielo_desliza</object>
       <object>objects\obj_puas_hielo</object>
     </objects>
     <objects name="obj_Boss">
@@ -129,6 +165,7 @@
     <room>rooms\room_p_inicio</room>
     <room>rooms\room_menu</room>
     <room>rooms\iceroom_2</room>
+    <room>rooms\earthroom</room>
     <room>rooms\game_over</room>
   </rooms>
   <help>
