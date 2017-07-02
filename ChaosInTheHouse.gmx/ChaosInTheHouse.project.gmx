@@ -50,6 +50,8 @@
       </sprites>
       <sprite>sprites\spr_fregador</sprite>
       <sprite>sprites\spr_mueble_prendio</sprite>
+      <sprite>sprites\spr_piso_mosaico_flevel</sprite>
+      <sprite>sprites\alternative_Lava</sprite>
     </sprites>
     <sprites name="spr_Boss">
       <sprite>sprites\spr_pared</sprite>
@@ -131,6 +133,7 @@
         <object>objects\obj_generate_claves</object>
       </objects>
       <object>objects\obj_freg</object>
+      <object>objects\obj_piso_baldosas_fire</object>
     </objects>
     <objects name="obj_General">
       <object>objects\CONTROL</object>

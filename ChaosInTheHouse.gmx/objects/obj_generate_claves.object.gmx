@@ -38,7 +38,7 @@ for(i=0;i&lt;4;i++)
         wh=irandom_range(0,3);
     }
     show_debug_message("OBJ::"+string(wh))
-    //instance_create(64,posyi[wh],obj_array[i])
+    instance_create(64,posyi[wh],obj_array[i])
     tomado[wh]=1
 }
 </string>
