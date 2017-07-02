@@ -61,6 +61,8 @@
       <sprite>sprites\spr_enemy1</sprite>
       <sprite>sprites\spr_field</sprite>
       <sprite>sprites\spr_no_fire</sprite>
+      <sprite>sprites\spr_libertad_fire</sprite>
+      <sprite>sprites\spr_libertansart_fire</sprite>
     </sprites>
     <sprites name="spr_Boss">
       <sprite>sprites\spr_pared</sprite>
@@ -153,6 +155,7 @@
       <object>objects\obj_enemy_field</object>
       <object>objects\obj_stop_fire</object>
       <object>objects\obj_keys_control</object>
+      <object>objects\obj_sarten</object>
     </objects>
     <objects name="obj_General">
       <object>objects\CONTROL</object>

@@ -34,6 +34,11 @@ with (latobl)
 }
 show_debug_message("this place:: "+string(zx));
 obj_enemy_fire.foll=1;
+
+if(id == field_u)
+{
+    instance_destroy();
+}
 </string>
           </argument>
         </arguments>
