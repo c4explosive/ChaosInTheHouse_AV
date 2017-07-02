@@ -674,8 +674,7 @@
     <option_xbone_title_id>1234ABCD</option_xbone_title_id>
   </Options>
   <ConfigConstants>
-    <constants number="2">
-      <constant name="mkdir">zs</constant>
+    <constants number="1">
       <constant name="nrkeys">4</constant>
     </constants>
   </ConfigConstants>

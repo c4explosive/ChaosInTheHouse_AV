@@ -53,7 +53,7 @@ spd=5;
         <arguments>
           <argument>
             <kind>10</kind>
-            <object>obj_habilidades</object>
+            <object>-100</object>
           </argument>
           <argument>
             <kind>0</kind>
