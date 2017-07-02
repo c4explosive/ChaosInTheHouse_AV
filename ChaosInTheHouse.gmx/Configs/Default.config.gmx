@@ -673,5 +673,9 @@
     <option_xbone_texture_page>1024</option_xbone_texture_page>
     <option_xbone_title_id>1234ABCD</option_xbone_title_id>
   </Options>
-  <ConfigConstants/>
+  <ConfigConstants>
+    <constants number="1">
+      <constant name="nrkeys">4</constant>
+    </constants>
+  </ConfigConstants>
 </Config>
