@@ -8,7 +8,7 @@ ins_array=array(latobl,latobl1,latobl2,latobl3,latobl4,latobl5,
                 
 for(i=0;i<15;i++)
 {
-    if(obj_switch.candestroy==1)
+    if(obj_switch_2.candestroy==1)
     {
         
         with (ins_array[i])
@@ -20,5 +20,5 @@ for(i=0;i<15;i++)
         instance_create(zx,zy,obj_piso_baldosas_fire);
     }
 }
-obj_switch.candestroy=0;       
+obj_switch_2.candestroy=0;       
 
