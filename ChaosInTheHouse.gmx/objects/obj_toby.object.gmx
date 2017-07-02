@@ -3,7 +3,7 @@
   <spriteName>spr_toby</spriteName>
   <solid>0</solid>
   <visible>-1</visible>
-  <depth>0</depth>
+  <depth>-10</depth>
   <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
@@ -173,6 +173,7 @@ vspd = (keyboard_check(vk_down)-keyboard_check(vk_up))*spd;
 
 //Push
 src_push(obj_mueble,2);
+//src_push(obj_freg,2);
 
 //Move
 //src_move(hspd,vspd,obj_obj);
