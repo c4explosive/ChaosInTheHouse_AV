@@ -201,6 +201,7 @@
       <object>objects\obj_switch</object>
       <object>objects\obj_switch_hielo</object>
     </objects>
+    <object>objects\obj69</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\iceroom_1</room>
