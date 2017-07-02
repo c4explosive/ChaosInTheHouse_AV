@@ -1,4 +1,4 @@
-///src_move(hspd, vspd)
+///src_move(hspd, vspd, obj_coll)
 
 var hspd = argument[0];
 var vspd = argument[1];
