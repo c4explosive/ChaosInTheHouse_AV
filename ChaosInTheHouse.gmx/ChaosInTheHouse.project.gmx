@@ -175,8 +175,6 @@
       <object>objects\obj_next</object>
       <object>objects\obj_music_control</object>
     </objects>
-    <object>objects\obj70</object>
-    <object>objects\obj69</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room_boss</room>
