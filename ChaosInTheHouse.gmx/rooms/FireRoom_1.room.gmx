@@ -13,7 +13,6 @@
   <code></code>
   <enableViews>0</enableViews>
   <clearViewBackground>-1</clearViewBackground>
-  <clearDisplayBuffer>-1</clearDisplayBuffer>
   <makerSettings>
     <isSet>0</isSet>
     <w>0</w>
@@ -82,9 +81,7 @@
     <instance objName="obj_piso_baldosas_fire" x="384" y="128" name="inst_47675736" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_piso_baldosas_fire" x="384" y="96" name="inst_D18D7157" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_piso_baldosas_fire" x="384" y="64" name="inst_0518821D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_piso_baldosas_fire" x="416" y="32" name="inst_9B3F0594" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_piso_baldosas_fire" x="416" y="96" name="inst_5E9CBCFD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_piso_baldosas_fire" x="416" y="64" name="inst_07796F15" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_piso_baldosas_fire" x="416" y="128" name="inst_8A086BD4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_piso_baldosas_fire" x="480" y="128" name="inst_2C2C413B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_piso_baldosas_fire" x="448" y="96" name="inst_DD494D53" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -101,7 +98,6 @@
     <instance objName="obj_piso_baldosas_fire" x="512" y="64" name="inst_5664A303" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_piso_baldosas_fire" x="544" y="96" name="inst_3F3C102B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_piso_baldosas_fire" x="544" y="64" name="inst_34390C95" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_piso_baldosas_fire" x="544" y="32" name="inst_E1937035" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_piso_baldosas_fire" x="576" y="128" name="inst_FA2900A8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_piso_baldosas_fire" x="576" y="160" name="inst_CF3F7E9A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_piso_baldosas_fire" x="544" y="160" name="inst_51F9AF7E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -146,20 +142,20 @@
     <instance objName="obj_piso_baldosas_fire" x="448" y="352" name="inst_1B327165" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_piso_baldosas_fire" x="480" y="352" name="inst_ED94E297" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_piso_baldosas_fire" x="512" y="480" name="inst_68D3B8F1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_piso_baldosas_fire" x="544" y="480" name="inst_767DC70D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_piso_baldosas_fire" x="544" y="480" name="inst_767DC70D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
     <instance objName="obj_piso_baldosas_fire" x="576" y="480" name="inst_98A94E7B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_piso_baldosas_fire" x="672" y="480" name="inst_4C77D5CB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_piso_baldosas_fire" x="704" y="480" name="inst_AC404086" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_piso_baldosas_fire" x="576" y="448" name="inst_C5FA2763" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_piso_baldosas_fire" x="544" y="448" name="inst_4E2266BC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_piso_baldosas_fire" x="512" y="448" name="inst_952EA2C1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_piso_baldosas_fire" x="512" y="416" name="inst_C95E3DAD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_piso_baldosas_fire" x="512" y="416" name="inst_952EA2C1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_piso_baldosas_fire" x="512" y="416" name="inst_C95E3DAD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
     <instance objName="obj_piso_baldosas_fire" x="512" y="384" name="inst_24BD89D1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_piso_baldosas_fire" x="576" y="384" name="inst_511BAC91" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_piso_baldosas_fire" x="576" y="416" name="inst_921BC6FA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_piso_baldosas_fire" x="544" y="416" name="inst_4B9F1780" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_piso_baldosas_fire" x="544" y="448" name="inst_9B4E66E3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_piso_baldosas_fire" x="576" y="448" name="inst_14B991F6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_piso_baldosas_fire" x="544" y="480" name="inst_9B4E66E3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_piso_baldosas_fire" x="576" y="448" name="inst_14B991F6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="180"/>
     <instance objName="obj_piso_baldosas_fire" x="416" y="480" name="inst_32294AC6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_piso_baldosas_fire" x="416" y="448" name="inst_A9A3E8CB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_piso_baldosas_fire" x="416" y="416" name="inst_92976007" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -229,7 +225,6 @@
     <instance objName="obj_piso_baldosas_fire" x="224" y="448" name="inst_909C5051" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_piso_baldosas_fire" x="224" y="480" name="inst_1CFE4390" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_piso_baldosas_fire" x="192" y="480" name="inst_D9538859" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_piso_baldosas_fire" x="192" y="512" name="inst_3DDE800A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_piso_baldosas_fire" x="160" y="512" name="inst_E3285649" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_piso_baldosas_fire" x="160" y="544" name="inst_8547FDE1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_piso_baldosas_fire" x="128" y="544" name="inst_C94BB101" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -403,11 +398,11 @@
     <instance objName="obj_piso_baldosas_fire" x="544" y="384" name="inst_A186309A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_piso_baldosas_fire" x="416" y="224" name="inst_3A747772" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_piso_baldosas_fire" x="192" y="320" name="inst_9309435E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_piso_baldosas_fire" x="384" y="448" name="inst_5376195B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_piso_baldosas_fire" x="128" y="480" name="inst_B48CF658" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_piso_baldosas_fire" x="512" y="448" name="inst_2D27E3A9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="activeFireLevel" x="0" y="0" name="inst_33EEE254" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_stove" x="192" y="0" name="inst_70304A64" locked="0" code="" scaleX="2" scaleY="1.42222225666046" colour="4294967295" rotation="0"/>
-    <instance objName="obj_redHotLava" x="256" y="0" name="inst_728AC8E0" locked="0" code="" scaleX="0.275862067937851" scaleY="0.275862067937851" colour="4294967295" rotation="0"/>
-    <instance objName="obj_redHotLava" x="288" y="0" name="inst_FB64F505" locked="0" code="" scaleX="0.275862008333206" scaleY="0.275862008333206" colour="4294967295" rotation="0"/>
-    <instance objName="obj_redHotLava" x="320" y="0" name="inst_9467265A" locked="0" code="" scaleX="0.275862067937851" scaleY="0.275862067937851" colour="4294967295" rotation="0"/>
     <instance objName="obj_pared_obs1" x="0" y="160" name="inst_06E63317" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_pared_obs1" x="32" y="160" name="inst_476765DE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_pared_obs1" x="64" y="160" name="inst_331CCA7D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -452,54 +447,13 @@
     <instance objName="obj_pared_obs1" x="512" y="576" name="inst_ED6E53B0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_pared_obs1" x="544" y="576" name="inst_3BE2E94D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_pared_obs1" x="576" y="576" name="inst_015DA59B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_pared_obs1" x="608" y="576" name="inst_B8F1EE7E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_pared_obs1" x="640" y="576" name="inst_81FF773D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_pared_obs1" x="672" y="576" name="inst_C92B4F3C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_pared_obs1" x="704" y="576" name="inst_9DC9937B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_pared_obs1" x="736" y="576" name="inst_AC65992F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_pared_obs1" x="768" y="576" name="inst_FA7AC0B8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_generate_claves" x="64" y="128" name="inst_94C600BB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_redHotLava" x="352" y="0" name="inst_01FA8700" locked="0" code="" scaleX="0.275862067937851" scaleY="0.275862067937851" colour="4294967295" rotation="0"/>
-    <instance objName="obj_redHotLava" x="384" y="0" name="inst_C330AD62" locked="0" code="" scaleX="0.275862067937851" scaleY="0.275862067937851" colour="4294967295" rotation="0"/>
-    <instance objName="obj_redHotLava" x="288" y="32" name="inst_CECFE507" locked="0" code="" scaleX="0.275862067937851" scaleY="0.275862067937851" colour="4294967295" rotation="0"/>
-    <instance objName="obj_redHotLava" x="320" y="32" name="inst_00DB72D2" locked="0" code="" scaleX="0.275862067937851" scaleY="0.275862067937851" colour="4294967295" rotation="0"/>
-    <instance objName="obj_redHotLava" x="352" y="32" name="inst_B587CA98" locked="0" code="" scaleX="0.275862067937851" scaleY="0.275862067937851" colour="4294967295" rotation="0"/>
-    <instance objName="obj_redHotLava" x="320" y="64" name="inst_DB1286E7" locked="0" code="" scaleX="0.275862067937851" scaleY="0.275862067937851" colour="4294967295" rotation="0"/>
-    <instance objName="obj_redHotLava" x="416" y="0" name="inst_73BAEE4C" locked="0" code="" scaleX="0.275862067937851" scaleY="0.275862067937851" colour="4294967295" rotation="0"/>
-    <instance objName="obj_redHotLava" x="384" y="32" name="inst_4100E77F" locked="0" code="" scaleX="0.275862067937851" scaleY="0.275862067937851" colour="4294967295" rotation="0"/>
-    <instance objName="obj_redHotLava" x="352" y="64" name="inst_1EC02690" locked="0" code="" scaleX="0.275862067937851" scaleY="0.275862067937851" colour="4294967295" rotation="0"/>
-    <instance objName="obj_redHotLava" x="224" y="544" name="inst_D5BC500C" locked="0" code="" scaleX="0.275862008333206" scaleY="0.275862008333206" colour="4294967295" rotation="0"/>
-    <instance objName="obj_redHotLava" x="256" y="544" name="inst_1553BAD2" locked="0" code="" scaleX="0.275862067937851" scaleY="0.275862067937851" colour="4294967295" rotation="0"/>
-    <instance objName="obj_redHotLava" x="320" y="512" name="inst_6A521AF7" locked="0" code="" scaleX="0.275862067937851" scaleY="0.275862067937851" colour="4294967295" rotation="0"/>
-    <instance objName="obj_redHotLava" x="288" y="576" name="inst_627EDE6E" locked="0" code="" scaleX="0.275862067937851" scaleY="0.275862067937851" colour="4294967295" rotation="0"/>
-    <instance objName="obj_redHotLava" x="320" y="576" name="inst_2FAD44C2" locked="0" code="" scaleX="0.275862067937851" scaleY="0.275862067937851" colour="4294967295" rotation="0"/>
-    <instance objName="obj_redHotLava" x="352" y="576" name="inst_141FA3CE" locked="0" code="" scaleX="0.275862067937851" scaleY="0.275862067937851" colour="4294967295" rotation="0"/>
-    <instance objName="obj_redHotLava" x="384" y="576" name="inst_469306A6" locked="0" code="" scaleX="0.275862067937851" scaleY="0.275862067937851" colour="4294967295" rotation="0"/>
-    <instance objName="obj_redHotLava" x="416" y="576" name="inst_C293C307" locked="0" code="" scaleX="0.275862008333206" scaleY="0.275862008333206" colour="4294967295" rotation="0"/>
-    <instance objName="obj_redHotLava" x="192" y="576" name="inst_44D12E45" locked="0" code="" scaleX="0.275862008333206" scaleY="0.275862008333206" colour="4294967295" rotation="0"/>
-    <instance objName="obj_redHotLava" x="224" y="576" name="inst_2720528F" locked="0" code="" scaleX="0.275862067937851" scaleY="0.275862067937851" colour="4294967295" rotation="0"/>
-    <instance objName="obj_redHotLava" x="256" y="576" name="inst_67A0E1F2" locked="0" code="" scaleX="0.275862067937851" scaleY="0.275862067937851" colour="4294967295" rotation="0"/>
-    <instance objName="obj_redHotLava" x="288" y="512" name="inst_E9B5FF5A" locked="0" code="" scaleX="0.275862008333206" scaleY="0.275862008333206" colour="4294967295" rotation="0"/>
-    <instance objName="obj_redHotLava" x="256" y="512" name="inst_66E5679F" locked="0" code="" scaleX="0.275862067937851" scaleY="0.275862067937851" colour="4294967295" rotation="0"/>
-    <instance objName="obj_redHotLava" x="320" y="544" name="inst_7608C117" locked="0" code="" scaleX="0.275862067937851" scaleY="0.275862067937851" colour="4294967295" rotation="0"/>
-    <instance objName="obj_redHotLava" x="352" y="544" name="inst_2B6DE860" locked="0" code="" scaleX="0.275862067937851" scaleY="0.275862067937851" colour="4294967295" rotation="0"/>
-    <instance objName="obj_redHotLava" x="192" y="544" name="inst_B8A6ADFB" locked="0" code="" scaleX="0.275862008333206" scaleY="0.275862008333206" colour="4294967295" rotation="0"/>
-    <instance objName="obj_redHotLava" x="256" y="544" name="inst_1FBE3A40" locked="0" code="" scaleX="0.275862067937851" scaleY="0.275862067937851" colour="4294967295" rotation="0"/>
-    <instance objName="obj_redHotLava" x="288" y="544" name="inst_B9C8392C" locked="0" code="" scaleX="0.275862067937851" scaleY="0.275862067937851" colour="4294967295" rotation="0"/>
-    <instance objName="obj_redHotLava" x="256" y="480" name="inst_6858A940" locked="0" code="" scaleX="0.275862067937851" scaleY="0.275862067937851" colour="4294967295" rotation="0"/>
-    <instance objName="obj_redHotLava" x="320" y="512" name="inst_99728E87" locked="0" code="" scaleX="0.275862067937851" scaleY="0.275862067937851" colour="4294967295" rotation="0"/>
-    <instance objName="obj_redHotLava" x="288" y="480" name="inst_7EF0859F" locked="0" code="" scaleX="0.275862067937851" scaleY="0.275862067937851" colour="4294967295" rotation="0"/>
     <instance objName="obj_freg" x="192" y="160" name="inst_0698E82B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_mueble" x="256" y="352" name="inst_3B1938B8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_redHotLava" x="224" y="512" name="inst_E59314EE" locked="0" code="" scaleX="0.275862067937851" scaleY="0.275862067937851" colour="4294967295" rotation="0"/>
-    <instance objName="obj_redHotLava" x="256" y="448" name="inst_D1999908" locked="0" code="" scaleX="0.275862067937851" scaleY="0.275862067937851" colour="4294967295" rotation="0"/>
-    <instance objName="obj_redHotLava" x="384" y="544" name="inst_7079FC80" locked="0" code="" scaleX="0.275862067937851" scaleY="0.275862067937851" colour="4294967295" rotation="0"/>
-    <instance objName="obj_redHotLava" x="384" y="512" name="inst_1D785C1B" locked="0" code="" scaleX="0.275862067937851" scaleY="0.275862067937851" colour="4294967295" rotation="0"/>
-    <instance objName="obj_redHotLava" x="384" y="480" name="inst_721C40C6" locked="0" code="" scaleX="0.275862067937851" scaleY="0.275862067937851" colour="4294967295" rotation="0"/>
-    <instance objName="obj_redHotLava" x="384" y="448" name="inst_9066626C" locked="0" code="" scaleX="0.275862067937851" scaleY="0.275862067937851" colour="4294967295" rotation="0"/>
-    <instance objName="obj_redHotLava" x="352" y="512" name="inst_814C0EC1" locked="0" code="" scaleX="0.275862067937851" scaleY="0.275862067937851" colour="4294967295" rotation="0"/>
-    <instance objName="obj_redHotLava" x="416" y="544" name="inst_12132F7A" locked="0" code="" scaleX="0.275862008333206" scaleY="0.275862008333206" colour="4294967295" rotation="0"/>
-    <instance objName="obj_redHotLava" x="416" y="512" name="inst_6EBCB2B0" locked="0" code="" scaleX="0.275862008333206" scaleY="0.275862008333206" colour="4294967295" rotation="0"/>
+    <instance objName="obj_mueble" x="288" y="416" name="inst_3B1938B8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_pare_obs2" x="480" y="544" name="inst_083727B2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_pare_obs2" x="480" y="512" name="inst_754DCEBE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_pare_obs2" x="480" y="480" name="inst_05C4C83F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -509,107 +463,223 @@
     <instance objName="obj_pare_obs2" x="288" y="64" name="inst_D9267567" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_pare_obs2" x="256" y="32" name="inst_05651240" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_pare_obs2" x="256" y="64" name="inst_16DFC199" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_redHotLava" x="448" y="448" name="inst_C5E0A948" locked="0" code="" scaleX="0.275862067937851" scaleY="0.275862067937851" colour="4294967295" rotation="0"/>
-    <instance objName="obj_redHotLava" x="448" y="480" name="inst_EB080E1F" locked="0" code="" scaleX="0.275862008333206" scaleY="0.275862008333206" colour="4294967295" rotation="0"/>
-    <instance objName="obj_redHotLava" x="448" y="512" name="inst_13ABC644" locked="0" code="" scaleX="0.275862008333206" scaleY="0.275862008333206" colour="4294967295" rotation="0"/>
-    <instance objName="obj_redHotLava" x="448" y="544" name="inst_F7612974" locked="0" code="" scaleX="0.275862067937851" scaleY="0.275862067937851" colour="4294967295" rotation="0"/>
-    <instance objName="obj_redHotLava" x="448" y="576" name="inst_C8FBA0B5" locked="0" code="" scaleX="0.275862067937851" scaleY="0.275862067937851" colour="4294967295" rotation="0"/>
-    <instance objName="obj_redHotLava" x="544" y="288" name="inst_D5734625" locked="0" code="" scaleX="0.275862008333206" scaleY="0.275862008333206" colour="4294967295" rotation="90"/>
-    <instance objName="obj_redHotLava" x="544" y="288" name="inst_AFB1064E" locked="0" code="" scaleX="0.275862008333206" scaleY="0.275862008333206" colour="4294967295" rotation="90"/>
-    <instance objName="obj_redHotLava" x="544" y="320" name="inst_46D3032F" locked="0" code="" scaleX="0.275862008333206" scaleY="0.275862008333206" colour="4294967295" rotation="90"/>
-    <instance objName="obj_redHotLava" x="576" y="288" name="inst_7CF627A4" locked="0" code="" scaleX="0.275862008333206" scaleY="0.275862008333206" colour="4294967295" rotation="90"/>
-    <instance objName="obj_redHotLava" x="576" y="320" name="inst_67BC6142" locked="0" code="" scaleX="0.275862008333206" scaleY="0.275862008333206" colour="4294967295" rotation="90"/>
-    <instance objName="obj_redHotLava" x="576" y="352" name="inst_39A79A56" locked="0" code="" scaleX="0.275862008333206" scaleY="0.275862008333206" colour="4294967295" rotation="90"/>
-    <instance objName="obj_redHotLava" x="576" y="384" name="inst_FABD63C5" locked="0" code="" scaleX="0.275862008333206" scaleY="0.275862008333206" colour="4294967295" rotation="90"/>
-    <instance objName="obj_redHotLava" x="608" y="384" name="inst_93B470D4" locked="0" code="" scaleX="0.275862008333206" scaleY="0.275862008333206" colour="4294967295" rotation="90"/>
-    <instance objName="obj_redHotLava" x="608" y="448" name="inst_ED60DBC8" locked="0" code="" scaleX="0.275862008333206" scaleY="0.275862008333206" colour="4294967295" rotation="90"/>
-    <instance objName="obj_redHotLava" x="640" y="480" name="inst_DB1362AA" locked="0" code="" scaleX="0.275862008333206" scaleY="0.275862008333206" colour="4294967295" rotation="90"/>
-    <instance objName="obj_redHotLava" x="672" y="416" name="inst_7AC45FF5" locked="0" code="" scaleX="0.275862008333206" scaleY="0.275862008333206" colour="4294967295" rotation="90"/>
-    <instance objName="obj_redHotLava" x="704" y="416" name="inst_4265D985" locked="0" code="" scaleX="0.275862008333206" scaleY="0.275862008333206" colour="4294967295" rotation="90"/>
-    <instance objName="obj_redHotLava" x="736" y="416" name="inst_9CD98584" locked="0" code="" scaleX="0.275862008333206" scaleY="0.275862008333206" colour="4294967295" rotation="90"/>
-    <instance objName="obj_redHotLava" x="768" y="416" name="inst_E31F2362" locked="0" code="" scaleX="0.275862008333206" scaleY="0.275862008333206" colour="4294967295" rotation="90"/>
-    <instance objName="obj_redHotLava" x="768" y="480" name="inst_E9AEEAF1" locked="0" code="" scaleX="0.275862008333206" scaleY="0.275862008333206" colour="4294967295" rotation="90"/>
-    <instance objName="obj_redHotLava" x="736" y="480" name="inst_2D015CA6" locked="0" code="" scaleX="0.275862008333206" scaleY="0.275862008333206" colour="4294967295" rotation="90"/>
-    <instance objName="obj_redHotLava" x="704" y="480" name="inst_CF497B95" locked="0" code="" scaleX="0.275862008333206" scaleY="0.275862008333206" colour="4294967295" rotation="90"/>
-    <instance objName="obj_redHotLava" x="672" y="480" name="inst_88E015CD" locked="0" code="" scaleX="0.275862008333206" scaleY="0.275862008333206" colour="4294967295" rotation="90"/>
-    <instance objName="obj_redHotLava" x="608" y="480" name="inst_C1D44DAC" locked="0" code="" scaleX="0.275862008333206" scaleY="0.275862008333206" colour="4294967295" rotation="90"/>
-    <instance objName="obj_redHotLava" x="640" y="416" name="inst_9EA65AD3" locked="0" code="" scaleX="0.275862008333206" scaleY="0.275862008333206" colour="4294967295" rotation="90"/>
-    <instance objName="obj_redHotLava" x="608" y="416" name="inst_9A40B61D" locked="0" code="" scaleX="0.275862008333206" scaleY="0.275862008333206" colour="4294967295" rotation="90"/>
-    <instance objName="obj_redHotLava" x="640" y="448" name="inst_59064E32" locked="0" code="" scaleX="0.275862008333206" scaleY="0.275862008333206" colour="4294967295" rotation="90"/>
-    <instance objName="obj_redHotLava" x="672" y="448" name="inst_FCD06ED2" locked="0" code="" scaleX="0.275862008333206" scaleY="0.275862008333206" colour="4294967295" rotation="90"/>
-    <instance objName="obj_redHotLava" x="704" y="448" name="inst_8DF7A292" locked="0" code="" scaleX="0.275862008333206" scaleY="0.275862008333206" colour="4294967295" rotation="90"/>
-    <instance objName="obj_redHotLava" x="736" y="448" name="inst_C911DAD5" locked="0" code="" scaleX="0.275862008333206" scaleY="0.275862008333206" colour="4294967295" rotation="90"/>
-    <instance objName="obj_redHotLava" x="768" y="448" name="inst_EE190275" locked="0" code="" scaleX="0.275862008333206" scaleY="0.275862008333206" colour="4294967295" rotation="90"/>
-    <instance objName="obj_redHotLava" x="640" y="384" name="inst_17CF52C5" locked="0" code="" scaleX="0.275862008333206" scaleY="0.275862008333206" colour="4294967295" rotation="90"/>
-    <instance objName="obj_redHotLava" x="672" y="384" name="inst_C867DDAA" locked="0" code="" scaleX="0.275862008333206" scaleY="0.275862008333206" colour="4294967295" rotation="90"/>
-    <instance objName="obj_redHotLava" x="704" y="384" name="inst_839F0BC4" locked="0" code="" scaleX="0.275862008333206" scaleY="0.275862008333206" colour="4294967295" rotation="90"/>
-    <instance objName="obj_redHotLava" x="736" y="384" name="inst_A6E46A6D" locked="0" code="" scaleX="0.275862008333206" scaleY="0.275862008333206" colour="4294967295" rotation="90"/>
-    <instance objName="obj_redHotLava" x="768" y="384" name="inst_D869AB92" locked="0" code="" scaleX="0.275862008333206" scaleY="0.275862008333206" colour="4294967295" rotation="90"/>
-    <instance objName="obj_redHotLava" x="640" y="416" name="inst_61395624" locked="0" code="" scaleX="0.275862008333206" scaleY="0.275862008333206" colour="4294967295" rotation="90"/>
-    <instance objName="obj_redHotLava" x="672" y="320" name="inst_7B423663" locked="0" code="" scaleX="0.275862008333206" scaleY="0.275862008333206" colour="4294967295" rotation="90"/>
-    <instance objName="obj_redHotLava" x="704" y="320" name="inst_818038C6" locked="0" code="" scaleX="0.275862008333206" scaleY="0.275862008333206" colour="4294967295" rotation="90"/>
-    <instance objName="obj_redHotLava" x="608" y="320" name="inst_2A681128" locked="0" code="" scaleX="0.275862008333206" scaleY="0.275862008333206" colour="4294967295" rotation="90"/>
-    <instance objName="obj_redHotLava" x="736" y="320" name="inst_EA3B14A4" locked="0" code="" scaleX="0.275862008333206" scaleY="0.275862008333206" colour="4294967295" rotation="90"/>
-    <instance objName="obj_redHotLava" x="640" y="320" name="inst_E07AAD6B" locked="0" code="" scaleX="0.275862008333206" scaleY="0.275862008333206" colour="4294967295" rotation="90"/>
-    <instance objName="obj_redHotLava" x="768" y="320" name="inst_DE2D1E64" locked="0" code="" scaleX="0.275862008333206" scaleY="0.275862008333206" colour="4294967295" rotation="90"/>
-    <instance objName="obj_redHotLava" x="608" y="352" name="inst_807149F1" locked="0" code="" scaleX="0.275862008333206" scaleY="0.275862008333206" colour="4294967295" rotation="90"/>
-    <instance objName="obj_redHotLava" x="640" y="352" name="inst_A06FEF4F" locked="0" code="" scaleX="0.275862008333206" scaleY="0.275862008333206" colour="4294967295" rotation="90"/>
-    <instance objName="obj_redHotLava" x="672" y="352" name="inst_5296AA09" locked="0" code="" scaleX="0.275862008333206" scaleY="0.275862008333206" colour="4294967295" rotation="90"/>
-    <instance objName="obj_redHotLava" x="704" y="352" name="inst_224E721D" locked="0" code="" scaleX="0.275862008333206" scaleY="0.275862008333206" colour="4294967295" rotation="90"/>
-    <instance objName="obj_redHotLava" x="736" y="352" name="inst_A493F2E2" locked="0" code="" scaleX="0.275862008333206" scaleY="0.275862008333206" colour="4294967295" rotation="90"/>
-    <instance objName="obj_redHotLava" x="768" y="352" name="inst_E4FC76D2" locked="0" code="" scaleX="0.275862008333206" scaleY="0.275862008333206" colour="4294967295" rotation="90"/>
-    <instance objName="obj_redHotLava" x="608" y="224" name="inst_09A77E68" locked="0" code="" scaleX="0.275862008333206" scaleY="0.275862008333206" colour="4294967295" rotation="90"/>
-    <instance objName="obj_redHotLava" x="640" y="96" name="inst_1C0B586B" locked="0" code="" scaleX="0.275862008333206" scaleY="0.275862008333206" colour="4294967295" rotation="90"/>
-    <instance objName="obj_redHotLava" x="672" y="224" name="inst_F3A4F337" locked="0" code="" scaleX="0.275862008333206" scaleY="0.275862008333206" colour="4294967295" rotation="90"/>
-    <instance objName="obj_redHotLava" x="704" y="224" name="inst_57104C67" locked="0" code="" scaleX="0.275862008333206" scaleY="0.275862008333206" colour="4294967295" rotation="90"/>
-    <instance objName="obj_redHotLava" x="736" y="224" name="inst_ABC33870" locked="0" code="" scaleX="0.275862008333206" scaleY="0.275862008333206" colour="4294967295" rotation="90"/>
-    <instance objName="obj_redHotLava" x="768" y="224" name="inst_90487BEB" locked="0" code="" scaleX="0.275862008333206" scaleY="0.275862008333206" colour="4294967295" rotation="90"/>
-    <instance objName="obj_redHotLava" x="608" y="288" name="inst_2BCF78DA" locked="0" code="" scaleX="0.275862008333206" scaleY="0.275862008333206" colour="4294967295" rotation="90"/>
-    <instance objName="obj_redHotLava" x="640" y="288" name="inst_929B0C83" locked="0" code="" scaleX="0.275862008333206" scaleY="0.275862008333206" colour="4294967295" rotation="90"/>
-    <instance objName="obj_redHotLava" x="672" y="288" name="inst_187FE073" locked="0" code="" scaleX="0.275862008333206" scaleY="0.275862008333206" colour="4294967295" rotation="90"/>
-    <instance objName="obj_redHotLava" x="704" y="288" name="inst_2B31F4E6" locked="0" code="" scaleX="0.275862008333206" scaleY="0.275862008333206" colour="4294967295" rotation="90"/>
-    <instance objName="obj_redHotLava" x="736" y="288" name="inst_E126541D" locked="0" code="" scaleX="0.275862008333206" scaleY="0.275862008333206" colour="4294967295" rotation="90"/>
-    <instance objName="obj_redHotLava" x="768" y="288" name="inst_888B1552" locked="0" code="" scaleX="0.275862008333206" scaleY="0.275862008333206" colour="4294967295" rotation="90"/>
-    <instance objName="obj_redHotLava" x="608" y="256" name="inst_98C6F168" locked="0" code="" scaleX="0.275862008333206" scaleY="0.275862008333206" colour="4294967295" rotation="90"/>
-    <instance objName="obj_redHotLava" x="640" y="256" name="inst_91DC0789" locked="0" code="" scaleX="0.275862008333206" scaleY="0.275862008333206" colour="4294967295" rotation="90"/>
-    <instance objName="obj_redHotLava" x="672" y="256" name="inst_C9ADC570" locked="0" code="" scaleX="0.275862008333206" scaleY="0.275862008333206" colour="4294967295" rotation="90"/>
-    <instance objName="obj_redHotLava" x="704" y="256" name="inst_B3CC0859" locked="0" code="" scaleX="0.275862008333206" scaleY="0.275862008333206" colour="4294967295" rotation="90"/>
-    <instance objName="obj_redHotLava" x="736" y="256" name="inst_5F999E7F" locked="0" code="" scaleX="0.275862008333206" scaleY="0.275862008333206" colour="4294967295" rotation="90"/>
-    <instance objName="obj_redHotLava" x="768" y="256" name="inst_8D923318" locked="0" code="" scaleX="0.275862008333206" scaleY="0.275862008333206" colour="4294967295" rotation="90"/>
-    <instance objName="obj_redHotLava" x="608" y="96" name="inst_A0DA8EA1" locked="0" code="" scaleX="0.275862008333206" scaleY="0.275862008333206" colour="4294967295" rotation="90"/>
-    <instance objName="obj_redHotLava" x="672" y="96" name="inst_495AC781" locked="0" code="" scaleX="0.275862008333206" scaleY="0.275862008333206" colour="4294967295" rotation="90"/>
-    <instance objName="obj_redHotLava" x="672" y="224" name="inst_2794EED6" locked="0" code="" scaleX="0.275862008333206" scaleY="0.275862008333206" colour="4294967295" rotation="90"/>
-    <instance objName="obj_redHotLava" x="704" y="96" name="inst_64BCC9AE" locked="0" code="" scaleX="0.275862008333206" scaleY="0.275862008333206" colour="4294967295" rotation="90"/>
-    <instance objName="obj_redHotLava" x="736" y="96" name="inst_2F0A8414" locked="0" code="" scaleX="0.275862008333206" scaleY="0.275862008333206" colour="4294967295" rotation="90"/>
-    <instance objName="obj_redHotLava" x="768" y="96" name="inst_719F7C2E" locked="0" code="" scaleX="0.275862008333206" scaleY="0.275862008333206" colour="4294967295" rotation="90"/>
-    <instance objName="obj_redHotLava" x="640" y="224" name="inst_0C8C86A8" locked="0" code="" scaleX="0.275862008333206" scaleY="0.275862008333206" colour="4294967295" rotation="90"/>
-    <instance objName="obj_redHotLava" x="608" y="192" name="inst_D7FC7F7A" locked="0" code="" scaleX="0.275862008333206" scaleY="0.275862008333206" colour="4294967295" rotation="90"/>
-    <instance objName="obj_redHotLava" x="640" y="192" name="inst_3461E2E0" locked="0" code="" scaleX="0.275862008333206" scaleY="0.275862008333206" colour="4294967295" rotation="90"/>
-    <instance objName="obj_redHotLava" x="672" y="192" name="inst_20DEC458" locked="0" code="" scaleX="0.275862008333206" scaleY="0.275862008333206" colour="4294967295" rotation="90"/>
-    <instance objName="obj_redHotLava" x="704" y="192" name="inst_F8D9D82C" locked="0" code="" scaleX="0.275862008333206" scaleY="0.275862008333206" colour="4294967295" rotation="90"/>
-    <instance objName="obj_redHotLava" x="736" y="192" name="inst_2E7D1158" locked="0" code="" scaleX="0.275862008333206" scaleY="0.275862008333206" colour="4294967295" rotation="90"/>
-    <instance objName="obj_redHotLava" x="768" y="160" name="inst_A8BE5E64" locked="0" code="" scaleX="0.275862008333206" scaleY="0.275862008333206" colour="4294967295" rotation="90"/>
-    <instance objName="obj_redHotLava" x="608" y="160" name="inst_2B5F9ED5" locked="0" code="" scaleX="0.275862008333206" scaleY="0.275862008333206" colour="4294967295" rotation="90"/>
-    <instance objName="obj_redHotLava" x="640" y="160" name="inst_647CD7FE" locked="0" code="" scaleX="0.275862008333206" scaleY="0.275862008333206" colour="4294967295" rotation="90"/>
-    <instance objName="obj_redHotLava" x="704" y="160" name="inst_BF1C2BFC" locked="0" code="" scaleX="0.275862008333206" scaleY="0.275862008333206" colour="4294967295" rotation="90"/>
-    <instance objName="obj_redHotLava" x="672" y="160" name="inst_81C3A4BF" locked="0" code="" scaleX="0.275862008333206" scaleY="0.275862008333206" colour="4294967295" rotation="90"/>
-    <instance objName="obj_redHotLava" x="768" y="192" name="inst_49F16E35" locked="0" code="" scaleX="0.275862008333206" scaleY="0.275862008333206" colour="4294967295" rotation="90"/>
-    <instance objName="obj_redHotLava" x="736" y="160" name="inst_31FED6C2" locked="0" code="" scaleX="0.275862008333206" scaleY="0.275862008333206" colour="4294967295" rotation="90"/>
-    <instance objName="obj_redHotLava" x="608" y="128" name="inst_2E8B7DB3" locked="0" code="" scaleX="0.275862008333206" scaleY="0.275862008333206" colour="4294967295" rotation="90"/>
-    <instance objName="obj_redHotLava" x="640" y="128" name="inst_FF4E626F" locked="0" code="" scaleX="0.275862008333206" scaleY="0.275862008333206" colour="4294967295" rotation="90"/>
-    <instance objName="obj_redHotLava" x="672" y="128" name="inst_65EE2259" locked="0" code="" scaleX="0.275862008333206" scaleY="0.275862008333206" colour="4294967295" rotation="90"/>
-    <instance objName="obj_redHotLava" x="704" y="128" name="inst_D4D8505B" locked="0" code="" scaleX="0.275862008333206" scaleY="0.275862008333206" colour="4294967295" rotation="90"/>
-    <instance objName="obj_redHotLava" x="736" y="128" name="inst_34E15488" locked="0" code="" scaleX="0.275862008333206" scaleY="0.275862008333206" colour="4294967295" rotation="90"/>
-    <instance objName="obj_redHotLava" x="768" y="128" name="inst_B0DD1614" locked="0" code="" scaleX="0.275862008333206" scaleY="0.275862008333206" colour="4294967295" rotation="90"/>
-    <instance objName="obj_redHotLava" x="608" y="64" name="inst_E48A0611" locked="0" code="" scaleX="0.275862008333206" scaleY="0.275862008333206" colour="4294967295" rotation="90"/>
-    <instance objName="obj_redHotLava" x="640" y="64" name="inst_6AC6E6D6" locked="0" code="" scaleX="0.275862008333206" scaleY="0.275862008333206" colour="4294967295" rotation="90"/>
-    <instance objName="obj_redHotLava" x="672" y="64" name="inst_5FCE90D1" locked="0" code="" scaleX="0.275862008333206" scaleY="0.275862008333206" colour="4294967295" rotation="90"/>
-    <instance objName="obj_redHotLava" x="704" y="64" name="inst_968FE0D2" locked="0" code="" scaleX="0.275862008333206" scaleY="0.275862008333206" colour="4294967295" rotation="90"/>
-    <instance objName="obj_redHotLava" x="736" y="64" name="inst_6AFCC817" locked="0" code="" scaleX="0.275862008333206" scaleY="0.275862008333206" colour="4294967295" rotation="90"/>
-    <instance objName="obj_redHotLava" x="768" y="64" name="inst_E6BB0D32" locked="0" code="" scaleX="0.275862008333206" scaleY="0.275862008333206" colour="4294967295" rotation="90"/>
-    <instance objName="obj_redHotLava" x="576" y="128" name="inst_7DDC2788" locked="0" code="" scaleX="0.275862008333206" scaleY="0.275862008333206" colour="4294967295" rotation="90"/>
-    <instance objName="obj_redHotLava" x="576" y="64" name="inst_77198C5B" locked="0" code="" scaleX="0.275862008333206" scaleY="0.275862008333206" colour="4294967295" rotation="90"/>
-    <instance objName="obj_redHotLava" x="576" y="96" name="inst_E49F4034" locked="0" code="" scaleX="0.275862008333206" scaleY="0.275862008333206" colour="4294967295" rotation="90"/>
+    <instance objName="obj_pare_obs2" x="416" y="32" name="inst_8EB1D6E4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_pare_obs2" x="416" y="64" name="inst_6ABFF07B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="256" y="0" name="inst_03D4E9AC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="288" y="0" name="inst_EA2BE550" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="320" y="0" name="inst_D3816DF9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="352" y="0" name="inst_4B46C889" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="384" y="0" name="inst_F868B44F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="416" y="0" name="inst_77C46291" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="288" y="32" name="inst_A0BA5A7B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="320" y="32" name="inst_A8883E04" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="352" y="32" name="inst_818B31E5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="384" y="32" name="inst_DED4ED6D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="352" y="64" name="inst_057498F8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="320" y="64" name="inst_26ABC4D6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="224" y="576" name="inst_15CB5B80" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="192" y="576" name="inst_F254816E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="224" y="576" name="inst_BD328F5A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="256" y="576" name="inst_CC278435" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="288" y="576" name="inst_0CD96956" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="320" y="576" name="inst_1625DDF3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="352" y="576" name="inst_F6EA0B79" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="384" y="576" name="inst_7F066B7F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="384" y="544" name="inst_DA91F1FD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="416" y="544" name="inst_D912CEBE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="448" y="544" name="inst_942CEA65" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="448" y="576" name="inst_FFA467B6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="416" y="576" name="inst_EFEEA672" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="352" y="544" name="inst_EA28D739" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="320" y="544" name="inst_805B3F45" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="288" y="544" name="inst_98174A17" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="256" y="544" name="inst_FE88BCA7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="256" y="576" name="inst_E76AB65C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="224" y="576" name="inst_2B3E471B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="192" y="544" name="inst_3A886A10" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="224" y="544" name="inst_D12F26F7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="192" y="544" name="inst_14058F7F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="192" y="512" name="inst_9734FEA8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="224" y="512" name="inst_70FEAE52" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="256" y="512" name="inst_A8A66690" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="288" y="512" name="inst_767005A3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="320" y="512" name="inst_484B57B5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="352" y="512" name="inst_863A334E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="384" y="512" name="inst_3C1910D8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="416" y="512" name="inst_20FD9894" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="448" y="512" name="inst_D312C244" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="448" y="480" name="inst_9F0F984E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="448" y="448" name="inst_759CABCD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="384" y="480" name="inst_33886C34" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="288" y="480" name="inst_4301FE83" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="256" y="480" name="inst_7D0D1074" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="256" y="448" name="inst_8DDB146E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="576" y="32" name="inst_0AA5021C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="544" y="32" name="inst_B83804E7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="576" y="32" name="inst_437CF48A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="608" y="32" name="inst_A3ECE842" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="640" y="32" name="inst_BC62D502" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="672" y="32" name="inst_485E8EE4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="704" y="32" name="inst_6D44DD5F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="736" y="32" name="inst_C67D9C30" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="768" y="32" name="inst_14378065" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="768" y="64" name="inst_29AC7E88" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="736" y="64" name="inst_2C5EF0F7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="736" y="96" name="inst_C1C486BF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="704" y="96" name="inst_6D1D699D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="672" y="96" name="inst_75645F98" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="640" y="96" name="inst_E7F11E53" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="608" y="96" name="inst_26FA7938" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="608" y="64" name="inst_1E56D6C9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="576" y="64" name="inst_4B22E81D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="608" y="64" name="inst_F7472D4E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="640" y="64" name="inst_B4B5B68F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="672" y="64" name="inst_8CC4EFAC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="704" y="64" name="inst_8A24E38C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="736" y="64" name="inst_39E7F983" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="704" y="64" name="inst_547C0961" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="672" y="64" name="inst_7EC48BA9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="672" y="96" name="inst_EE165F4E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="640" y="96" name="inst_3706C481" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="608" y="96" name="inst_7791BF1E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="576" y="96" name="inst_3EE53A86" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="608" y="96" name="inst_151AECF2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="640" y="96" name="inst_DC416991" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="672" y="96" name="inst_E6F7CE09" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="704" y="96" name="inst_5E8A99EB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="736" y="96" name="inst_8564B979" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="736" y="64" name="inst_8555DE1C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="736" y="96" name="inst_34227167" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="768" y="96" name="inst_F3AD5BAF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="768" y="128" name="inst_E660CA4D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="768" y="160" name="inst_CA68D735" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="736" y="160" name="inst_CCE81790" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="704" y="160" name="inst_B71F1CB1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="672" y="160" name="inst_A2D72197" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="672" y="128" name="inst_1E66D6D1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="640" y="128" name="inst_B568ACE9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="608" y="128" name="inst_94E10B33" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="640" y="128" name="inst_65BE3078" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="672" y="128" name="inst_DB1B8C03" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="704" y="128" name="inst_4F65E9A8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="736" y="128" name="inst_A97774A1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="768" y="128" name="inst_F92E096F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="736" y="128" name="inst_619E2DA0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="736" y="160" name="inst_8DA2F95B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="704" y="160" name="inst_75867ACD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="672" y="160" name="inst_49B2A75C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="640" y="160" name="inst_350A5DC0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="608" y="160" name="inst_3CB79DF6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="640" y="160" name="inst_955041A8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="640" y="192" name="inst_1AFCE42C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="640" y="224" name="inst_4C5C3949" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="608" y="224" name="inst_F75F0E35" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="608" y="192" name="inst_4A83558C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="640" y="192" name="inst_595DC5D3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="672" y="192" name="inst_86198A33" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="704" y="160" name="inst_61210580" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="736" y="160" name="inst_DAE0B578" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="768" y="160" name="inst_6DA7767D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="768" y="192" name="inst_F8591F33" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="768" y="224" name="inst_C15C9DCB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="736" y="224" name="inst_AF8BE931" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="704" y="224" name="inst_B9771ABF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="704" y="192" name="inst_A1C64FC5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="736" y="192" name="inst_233678C8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="704" y="192" name="inst_719D18B0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="672" y="224" name="inst_8F3670D4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="576" y="256" name="inst_BDD71BCC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="608" y="256" name="inst_61071575" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="576" y="256" name="inst_43F0159F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="544" y="256" name="inst_C30D63AA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="544" y="288" name="inst_936EBDEA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="576" y="288" name="inst_E9CE0ECE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="608" y="288" name="inst_342F078A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="608" y="320" name="inst_AFD3619F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="576" y="320" name="inst_55D60D48" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="672" y="352" name="latobl3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="608" y="352" name="latobl1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="608" y="384" name="latobl5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="608" y="448" name="inst_0F7D6C3D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="640" y="448" name="inst_C2CF48E8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="672" y="448" name="latobl15" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="704" y="448" name="latobl16" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="736" y="448" name="inst_72FD0F03" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="736" y="416" name="inst_1E52C584" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="768" y="416" name="inst_7E50AB18" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="768" y="448" name="inst_F03D4EDC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="768" y="416" name="inst_C031EED8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="736" y="416" name="inst_E8A0512A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="704" y="416" name="latobl14" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="672" y="416" name="latobl13" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="608" y="416" name="latobl11" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="640" y="384" name="latobl6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="640" y="352" name="latobl2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="640" y="320" name="inst_F631FF65" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="640" y="288" name="inst_E14A41C3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="640" y="256" name="inst_7337C90F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="640" y="224" name="inst_DCBCCAD7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="672" y="224" name="inst_105CC54C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="704" y="224" name="inst_A74AD129" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="736" y="224" name="inst_AE159130" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="768" y="256" name="inst_DAC20D7B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="768" y="288" name="inst_9EBEBC6B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="768" y="320" name="inst_DD78F746" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="768" y="352" name="inst_D7231C19" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="768" y="384" name="inst_553EFADF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="736" y="384" name="inst_8ECC1247" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="672" y="384" name="latobl7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="672" y="320" name="inst_F4451C84" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="672" y="288" name="inst_F72356E9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="704" y="256" name="inst_A56D2F09" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="736" y="256" name="inst_DF26F88D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="736" y="288" name="inst_2DAE10B5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="736" y="320" name="inst_40A638E2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="736" y="352" name="inst_406C4241" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="736" y="384" name="inst_A29BD6FD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="704" y="352" name="latobl4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="704" y="320" name="inst_B6A9360F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="704" y="288" name="inst_9D377698" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="672" y="288" name="inst_FC3D41B6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="672" y="256" name="inst_C3119162" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="672" y="288" name="inst_7F80BD26" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="576" y="352" name="latobl" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="704" y="384" name="latobl8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_abismo" x="32" y="32" name="inst_8340B180" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_abismo" x="64" y="32" name="inst_AD784C5C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_abismo" x="96" y="32" name="inst_C1C18D5E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_abismo" x="32" y="64" name="inst_9986AD7D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_abismo" x="64" y="64" name="inst_2A4789F2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_abismo" x="96" y="64" name="inst_D71AC21C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_abismo" x="608" y="480" name="inst_BC8A68F1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_abismo" x="640" y="480" name="inst_0AC9EABD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_abismo" x="640" y="512" name="inst_355B01D9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_abismo" x="608" y="512" name="inst_3881C640" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_abismo" x="608" y="544" name="inst_2C4BDDAC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_abismo" x="640" y="544" name="inst_AC531D40" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_abismo" x="736" y="480" name="inst_AB1BDF09" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_abismo" x="768" y="480" name="inst_6FCA98BB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_abismo" x="768" y="512" name="inst_ABA0AC87" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_abismo" x="736" y="512" name="inst_AA70234F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_abismo" x="736" y="544" name="inst_C1AB5E46" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_abismo" x="768" y="544" name="inst_7A0B981B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_key" x="64" y="512" name="inst_BAD5ACF9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_key" x="352" y="480" name="inst_C95E1E90" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_key" x="160" y="64" name="inst_BD10AF2C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_mueble" x="64" y="448" name="inst_E1B3045F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_pare_obs2" x="160" y="544" name="inst_19040462" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_pare_obs2" x="160" y="512" name="inst_26F618EE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_pare_obs2" x="160" y="480" name="inst_3374F045" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_pare_obs2" x="128" y="480" name="inst_41F07058" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_stop_fire" x="544" y="192" name="inst_732DA264" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_keys_control" x="32" y="128" name="inst_9850769A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_key" x="544" y="512" name="inst_5D84870E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_redHotLava" x="640" y="416" name="latobl12" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_pared_obs1" x="608" y="576" name="inst_10966A33" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_pared_obs1" x="704" y="576" name="inst_E71C222E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_switch" x="480" y="64" name="inst_C04AD696" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_enemy_field" x="128" y="256" name="inst_0CB703E0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_enemy_fire" x="192" y="320" name="inst_6E48EB3E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_toby" x="32" y="256" name="inst_7D21D33A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
