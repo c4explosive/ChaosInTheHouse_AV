@@ -2,7 +2,7 @@
 <object>
   <spriteName>spr_act_aire_suelo</spriteName>
   <solid>0</solid>
-  <visible>0</visible>
+  <visible>-1</visible>
   <depth>0</depth>
   <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
@@ -11,25 +11,21 @@
     <event eventtype="4" ename="obj_toby">
       <action>
         <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
+        <id>103</id>
+        <kind>0</kind>
+        <userelative>-1</userelative>
         <isquestion>0</isquestion>
         <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
+        <exetype>1</exetype>
+        <functionname>action_set_hspeed</functionname>
         <codestring></codestring>
-        <whoName>self</whoName>
+        <whoName>obj_toby</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
           <argument>
-            <kind>1</kind>
-            <string>///acctivar viento
-if obj_controlviento.vientoact = 0 then
-obj_toby.hspeed = 1;
-
-</string>
+            <kind>0</kind>
+            <string>1</string>
           </argument>
         </arguments>
       </action>
