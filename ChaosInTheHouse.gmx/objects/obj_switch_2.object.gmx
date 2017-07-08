@@ -78,6 +78,7 @@ image_index=0;
             <string>/// Execute a piece 
 if (obj_keys_control.nkeys == nrkeys)
 {
+    scr_stopfire()
     image_index=1;
     scr_latobl();
     //instance_destroy();

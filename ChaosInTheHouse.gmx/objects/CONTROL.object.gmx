@@ -25,7 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>hielo = 1 //Variable para comprobar si se aplica características para hielo
+            <string>/// Check if is ICE
+hielo = 1 //Variable para comprobar si se aplica características para hielo
 </string>
           </argument>
         </arguments>
