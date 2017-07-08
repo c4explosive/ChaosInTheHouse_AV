@@ -160,6 +160,9 @@
     <script>scripts\scr_stopfire.gml</script>
     <script>scripts\scr_latobl.gml</script>
   </scripts>
+  <fonts name="fonts">
+    <font>fonts\NES_font</font>
+  </fonts>
   <objects name="objects">
     <objects name="obj_jardin">
       <object>objects\obj_arb</object>
@@ -207,6 +210,7 @@
       <object>objects\obj_stop_fire</object>
       <object>objects\obj_keys_control</object>
       <object>objects\obj_sarten</object>
+      <object>objects\obj_control_level</object>
     </objects>
     <objects name="obj_General">
       <object>objects\CONTROL</object>

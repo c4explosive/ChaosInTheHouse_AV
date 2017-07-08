@@ -2,13 +2,37 @@
 <object>
   <spriteName>&lt;undefined&gt;</spriteName>
   <solid>0</solid>
-  <visible>0</visible>
+  <visible>-1</visible>
   <depth>0</depth>
   <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
     <event eventtype="0" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>611</id>
+        <kind>6</kind>
+        <userelative>-1</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>uTime</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>400</string>
+          </argument>
+        </arguments>
+      </action>
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -25,12 +49,14 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///para activar y desactivar las velocidades del suelo sobre toby
-vientoact = 0;
+            <string>/// Set counter --
+alarm[0]=1;
 </string>
           </argument>
         </arguments>
       </action>
+    </event>
+    <event eventtype="2" enumb="0">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -41,15 +67,17 @@ vientoact = 0;
         <exetype>2</exetype>
         <functionname></functionname>
         <codestring></codestring>
-        <whoName>obj_toby</whoName>
+        <whoName>self</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///cambiar máscara toby
+            <string>/// -1 for time
 
-mask_index = spr_toby_mascaraboss;
+show_debug_message("Time:: "+string(uTime));
+uTime-=1;
+alarm[0]=30;
 </string>
           </argument>
         </arguments>
