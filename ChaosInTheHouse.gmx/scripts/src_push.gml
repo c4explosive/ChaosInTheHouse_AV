@@ -3,7 +3,7 @@
 var obj_coll=argument[0]
 
 var dilei=argument[1]
-
+//Directions
 //H
 if (place_meeting(x+hspeed,y, obj_coll))
 {
