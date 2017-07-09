@@ -132,7 +132,7 @@ if(uTime &lt; 0)
 
 draw_set_font(NES_font);
 draw_set_color(c_white);
-draw_text(672,0,uTime);
+draw_text(500,5,"TIEMPO: "+string(uTime));
 </string>
           </argument>
         </arguments>
