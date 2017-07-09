@@ -113,6 +113,7 @@
         <sprite>sprites\spr_pagua</sprite>
         <sprite>sprites\spr_ptierra</sprite>
         <sprite>sprites\spr_paire</sprite>
+        <sprite>sprites\spr_pfuego</sprite>
       </sprites>
       <sprites name="spr_mueblesboss">
         <sprite>sprites\spr_m1</sprite>
@@ -139,6 +140,12 @@
         <sprite>sprites\spr_lizandra_mov_der</sprite>
         <sprite>sprites\spr_lizandra_mov_up</sprite>
         <sprite>sprites\spr_lizandra_mov_down</sprite>
+        <sprites name="ataquesLizandra">
+          <sprite>sprites\spr_ataque_fuego</sprite>
+          <sprite>sprites\spr_ataque_agua</sprite>
+          <sprite>sprites\spr_ataque_tierra</sprite>
+          <sprite>sprites\spr_ataque_aire</sprite>
+        </sprites>
       </sprites>
     </sprites>
     <sprites name="spr_Juego">
@@ -275,14 +282,12 @@
       <object>objects\obj_leviatan</object>
     </objects>
     <objects name="obj_Boss">
-      <object>objects\obj_pared</object>
-      <object>objects\obj_pared2</object>
-      <object>objects\obj_paredmovil</object>
       <object>objects\obj_foto</object>
       <objects name="obj_suelosboss">
         <object>objects\obj_hueco</object>
         <object>objects\obj_act1</object>
         <object>objects\obj_act2</object>
+        <object>objects\obj_cierraentrada</object>
         <object>objects\obj_controlviento</object>
         <objects name="Botones">
           <object>objects\obj_boton_boss</object>
@@ -297,6 +302,21 @@
         <object>objects\obj_m2</object>
         <object>objects\obj_m3</object>
         <object>objects\obj_cubierta_m1</object>
+      </objects>
+      <objects name="paredes boss">
+        <object>objects\obj_pared</object>
+        <object>objects\obj_pared2</object>
+        <object>objects\obj_paredmovil</object>
+        <object>objects\obj_pfuego</object>
+        <object>objects\obj_pagua</object>
+        <object>objects\obj_ptierra</object>
+        <object>objects\obj_paire</object>
+      </objects>
+      <objects name="obj_ataquesboss">
+        <object>objects\obj_ataque_fuego</object>
+        <object>objects\obj_ataque_agua</object>
+        <object>objects\obj_ataque_tierra</object>
+        <object>objects\obj_ataque_aire</object>
       </objects>
     </objects>
     <object>objects\obj_llave</object>
@@ -335,9 +355,12 @@
     </objects>
   </objects>
   <rooms name="rooms">
-    <room>rooms\FireRoom_1</room>
+
+
     <room>rooms\earthroom</room>
+
     <room>rooms\room_boss</room>
+    <room>rooms\FireRoom_1</room>
     <room>rooms\iceroom_1</room>
     <room>rooms\iceroom_2</room>
     <room>rooms\iceroom_3</room>
