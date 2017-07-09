@@ -310,6 +310,7 @@
     </objects>
   </objects>
   <rooms name="rooms">
+    <room>rooms\earthroom</room>
     <room>rooms\room_boss</room>
     <room>rooms\iceroom_1</room>
     <room>rooms\iceroom_2</room>
@@ -318,7 +319,6 @@
     <room>rooms\AirRoom</room>
     <room>rooms\room_p_inicio</room>
     <room>rooms\room_menu</room>
-    <room>rooms\earthroom</room>
     <room>rooms\game_over</room>
     <room>rooms\start</room>
   </rooms>
