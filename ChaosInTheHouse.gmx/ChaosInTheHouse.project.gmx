@@ -295,6 +295,7 @@
           <object>objects\obj_botonai</object>
           <object>objects\obj_botont</object>
         </objects>
+        <object>objects\obj_cerrarpared</object>
       </objects>
       <objects name="obj_muebles_boss">
         <object>objects\obj_m1</object>
