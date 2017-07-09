@@ -178,14 +178,11 @@
     <objects name="obj_jardin">
       <object>objects\obj_arb</object>
       <object>objects\obj_arb2</object>
-      <object>objects\obj_arb3</object>
       <object>objects\obj_arb4</object>
       <object>objects\obj_casa</object>
       <object>objects\obj_col</object>
       <object>objects\obj_mesa</object>
       <object>objects\obj_piso2</object>
-      <object>objects\obj_piso4</object>
-      <object>objects\obj_piso5</object>
       <object>objects\obj_piso6</object>
       <object>objects\obj_silla1</object>
       <object>objects\obj_silla2</object>
