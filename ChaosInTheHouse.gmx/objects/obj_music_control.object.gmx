@@ -25,8 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///Convertir esto en script
-room_n = room_get_name(room)//obtiene el nombre del room actual
+            <string>room_n = room_get_name(room)//obtiene el nombre del room actual
 
 if room_n == "iceroom_1" or room_n == "iceroom_2"//chequea en que room esta, y que rooms tienen el mismo sonido
 {
