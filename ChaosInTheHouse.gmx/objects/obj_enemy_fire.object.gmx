@@ -80,7 +80,7 @@ if (foll)
         <arguments>
           <argument>
             <kind>11</kind>
-            <room>game_over</room>
+            <room>-100</room>
           </argument>
         </arguments>
       </action>
