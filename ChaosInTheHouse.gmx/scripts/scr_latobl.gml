@@ -20,5 +20,6 @@ for(i=0;i<15;i++)
         instance_create(zx,zy,obj_piso_baldosas_fire);
     }
 }
-obj_switch_2.candestroy=0;       
+obj_switch_2.candestroy=0;
+//oh yeah       
 
