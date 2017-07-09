@@ -27,7 +27,7 @@
             <kind>1</kind>
             <string>///acctivar viento
 if obj_controlviento.vientoact = 0 then
-obj_toby.hspeed = 1;
+obj_toby.hspeed = 1.2;
 
 </string>
           </argument>

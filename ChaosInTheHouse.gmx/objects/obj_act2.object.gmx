@@ -27,7 +27,7 @@
             <kind>1</kind>
             <string>///Activar/desactivar viento
 if obj_controlviento.vientoact = 0 then
-obj_toby.hspeed = 1.5;
+obj_toby.hspeed = 1.7;
 
 </string>
           </argument>
