@@ -13,7 +13,6 @@
   <code></code>
   <enableViews>0</enableViews>
   <clearViewBackground>-1</clearViewBackground>
-  <clearDisplayBuffer>-1</clearDisplayBuffer>
   <makerSettings>
     <isSet>0</isSet>
     <w>0</w>
@@ -278,6 +277,7 @@
     <instance objName="obj_boton_boss" x="384" y="512" name="inst_2622718F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_lizandra" x="608" y="96" name="inst_1F36231D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_hueco" x="128" y="64" name="inst_9D42AF22" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+
     <instance objName="obj_pfuego" x="545" y="505" name="inst_A0B983A1" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
     <instance objName="obj_pfuego" x="544" y="469" name="inst_FA35D533" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
     <instance objName="obj_pfuego" x="564" y="486" name="inst_CB50F53D" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="90"/>
@@ -294,6 +294,7 @@
     <instance objName="obj_paire" x="545" y="334" name="inst_00586B4A" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
     <instance objName="obj_paire" x="565" y="353" name="inst_66DBA625" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="90"/>
     <instance objName="obj_paire" x="524" y="353" name="inst_F05CFFF7" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="90"/>
+
     <instance objName="obj_pared2" x="0" y="544" name="inst_B4904A28" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_pared2" x="0" y="512" name="inst_12CE20DC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_pared2" x="0" y="480" name="inst_CE22E2D8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -357,6 +358,7 @@
     <instance objName="obj_m3" x="339" y="85" name="inst_E746A14C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_toby" x="528" y="57" name="inst_E74B66A5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_cubierta_m1" x="192" y="62" name="inst_EC2E09A9" locked="0" code="" scaleX="0.984615385532379" scaleY="0.5" colour="4294967295" rotation="0"/>
+
     <instance objName="obj_foto" x="193" y="54" name="inst_E7514BA1" locked="0" code="" scaleX="0.839999973773956" scaleY="0.800000011920929" colour="4294967295" rotation="0"/>
     <instance objName="obj_start" x="459" y="269" name="inst_66B309D1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_abismo_boss" x="448" y="224" name="inst_A8C61D6C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -392,6 +394,7 @@
     <instance objName="obj_pared" x="628" y="10" name="inst_60C0A5E3" locked="0" code="" scaleX="0.375" scaleY="1.71875" colour="4294967295" rotation="0"/>
     <instance objName="obj_puerta1" x="586" y="49" name="inst_F9B77628" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_puerta2" x="618" y="49" name="inst_EB4D6696" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+
   </instances>
   <tiles>
     <tile bgName="bg_suelo_boss" x="32" y="576" w="32" h="32" xo="0" yo="0" id="10000001" name="inst_C699D50B" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
