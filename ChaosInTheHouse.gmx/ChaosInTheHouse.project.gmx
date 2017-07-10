@@ -37,11 +37,13 @@
         <sprite>sprites\Spr2Der</sprite>
         <sprite>sprites\Spr2Izq</sprite>
         <sprite>sprites\Spr2up</sprite>
+        <sprite>sprites\spr_guantes</sprite>
       </sprites>
       <sprite>sprites\spr_piedra</sprite>
       <sprite>sprites\spr_piedradestroy</sprite>
       <sprite>sprites\spr_arb5</sprite>
       <sprite>sprites\Spr_key1</sprite>
+      <sprite>sprites\spr_DragonEarth</sprite>
     </sprites>
     <sprites name="spr_Principal">
       <sprite>sprites\spr_toby</sprite>
@@ -113,18 +115,23 @@
         <sprite>sprites\spr_pared</sprite>
         <sprite>sprites\spr_pared2</sprite>
         <sprite>sprites\spr_pagua</sprite>
+        <sprite>sprites\spr_proteccion</sprite>
         <sprite>sprites\spr_ptierra</sprite>
         <sprite>sprites\spr_paire</sprite>
         <sprite>sprites\spr_pfuego</sprite>
+        <sprite>sprites\spr_puertac</sprite>
+        <sprite>sprites\spr_puertac_2</sprite>
       </sprites>
       <sprites name="spr_mueblesboss">
         <sprite>sprites\spr_m1</sprite>
         <sprite>sprites\spr_cubierta_m1</sprite>
         <sprite>sprites\spr_m2</sprite>
         <sprite>sprites\spr_m3</sprite>
+        <sprite>sprites\spr_entregarobj</sprite>
       </sprites>
       <sprites name="spr_cosasdelsuelo">
         <sprite>sprites\spr_piso</sprite>
+        <sprite>sprites\spr_abismo_boss</sprite>
         <sprite>sprites\spr_act_aire_suelo_2</sprite>
         <sprite>sprites\spr_hueco</sprite>
         <sprite>sprites\spr_act_aire_suelo</sprite>
@@ -151,6 +158,10 @@
           <sprite>sprites\spr_ataque_tierra</sprite>
           <sprite>sprites\spr_ataque_aire</sprite>
         </sprites>
+      </sprites>
+      <sprites name="spr_padrestoby">
+        <sprite>sprites\spr_padre_t</sprite>
+        <sprite>sprites\spr_madre_t</sprite>
       </sprites>
     </sprites>
     <sprites name="spr_Juego">
@@ -180,6 +191,11 @@
         <sprite>sprites\Slime_ar</sprite>
       </sprites>
       <sprite>sprites\bloq</sprite>
+      <sprite>sprites\nube_sombra</sprite>
+      <sprite>sprites\Pared_inv</sprite>
+      <sprite>sprites\Ventu</sprite>
+      <sprite>sprites\Key</sprite>
+      <sprite>sprites\hueco</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -189,6 +205,8 @@
     <background>background\bg_piso_bano</background>
     <background>background\bg_suelo_boss</background>
     <background>background\airTecho</background>
+    <background>background\nubeair</background>
+    <background>background\background8</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -241,7 +259,9 @@
           <object>objects\obj_key1</object>
           <object>objects\obj_keyfin1</object>
           <object>objects\status</object>
+          <object>objects\obj_guantes</object>
         </objects>
+        <object>objects\obj_DragonEarth</object>
       </objects>
       <object>objects\obj_piedra</object>
       <object>objects\object51</object>
@@ -302,6 +322,8 @@
     </objects>
     <objects name="obj_Boss">
       <object>objects\obj_foto</object>
+      <object>objects\obj_botas2</object>
+      <object>objects\obj_foto2</object>
       <objects name="obj_suelosboss">
         <object>objects\obj_hueco</object>
         <object>objects\obj_act1</object>
@@ -315,12 +337,20 @@
           <object>objects\obj_botont</object>
         </objects>
         <object>objects\obj_cerrarpared</object>
+        <object>objects\obj_suelo_puente</object>
+        <object>objects\obj_abismo_boss</object>
       </objects>
       <objects name="obj_muebles_boss">
         <object>objects\obj_m1</object>
-        <object>objects\obj_m2</object>
         <object>objects\obj_m3</object>
         <object>objects\obj_cubierta_m1</object>
+        <object>objects\obj_e1</object>
+        <object>objects\obj_e2</object>
+        <object>objects\obj_e3</object>
+        <object>objects\obj_e4</object>
+        <object>objects\obj_e5</object>
+        <object>objects\obj_puerta1</object>
+        <object>objects\obj_puerta2</object>
       </objects>
       <objects name="paredes boss">
         <object>objects\obj_pared</object>
@@ -330,12 +360,17 @@
         <object>objects\obj_pagua</object>
         <object>objects\obj_ptierra</object>
         <object>objects\obj_paire</object>
+        <object>objects\obj_proteccion</object>
       </objects>
       <objects name="obj_ataquesboss">
         <object>objects\obj_ataque_fuego</object>
         <object>objects\obj_ataque_agua</object>
         <object>objects\obj_ataque_tierra</object>
         <object>objects\obj_ataque_aire</object>
+      </objects>
+      <objects name="obj_padrestoby">
+        <object>objects\obj_padre_t</object>
+        <object>objects\obj_madre_t</object>
       </objects>
     </objects>
     <object>objects\obj_llave</object>
@@ -374,8 +409,14 @@
         <object>objects\obj_reme7</object>
         <object>objects\obj_remr7</object>
       </objects>
+      <object>objects\obj_exitair</object>
       <object>objects\Slime</object>
       <object>objects\obj_bloq</object>
+      <object>objects\obj_ventus</object>
+      <object>objects\obj_inv</object>
+      <object>objects\obj_sombra</object>
+      <object>objects\obj_keyair</object>
+      <object>objects\obj_huecoair</object>
     </objects>
   </objects>
   <rooms name="rooms">
