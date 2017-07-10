@@ -87,7 +87,6 @@ case 1:
     {
         obj_lizandra.y = 416;
         sprite_index = spr_lizandra_der;
-
     }
     else if (obj_lizandra.x = 736) then
     {
@@ -103,10 +102,6 @@ case 1:
         sprite_index = spr_lizandra_up;
     }
  //fin posición de ataque        
-
-    else if (obj_lizandra.x = 480) then
-        sprite_index = spr_lizandra_down;
-
     instance_create(obj_lizandra.x, obj_lizandra.y+10, obj_ataque_fuego);
     break;
     }
@@ -137,7 +132,6 @@ case 2:
     }
 case 3:
     {
-
     obj_lizandra.x = choose(480, 608, 736);
 
     if (obj_lizandra.x = 480) then
@@ -150,12 +144,6 @@ case 3:
         obj_lizandra.y = 416;
         sprite_index = spr_lizandra_izq;
     }
-
-    obj_lizandra.x = choose(480, 608, 736)
-    obj_lizandra.y = choose(288, 544);
-    if (obj_lizandra.y = 288) then
-        sprite_index = spr_lizandra_down;
-
     else
     {
         obj_lizandra.y = choose(288, 544)
@@ -265,8 +253,5 @@ alarm[0] = 0;
   <PhysicsObjectFriction>0.200000002980232</PhysicsObjectFriction>
   <PhysicsObjectAwake>-1</PhysicsObjectAwake>
   <PhysicsObjectKinematic>0</PhysicsObjectKinematic>
-  <PhysicsShapePoints>
-    <point>16,22</point>
-    <point>22,22</point>
-  </PhysicsShapePoints>
+  <PhysicsShapePoints/>
 </object>

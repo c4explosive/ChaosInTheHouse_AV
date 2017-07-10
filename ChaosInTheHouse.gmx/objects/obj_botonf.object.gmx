@@ -71,4 +71,3 @@ instance_create(608, 160, obj_suelo_puente);
   <PhysicsObjectKinematic>0</PhysicsObjectKinematic>
   <PhysicsShapePoints/>
 </object>
-
