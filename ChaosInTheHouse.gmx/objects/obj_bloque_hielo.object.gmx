@@ -26,7 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>obj_toby.puede_mover = true
-show_debug_message("Choque: "+string(obj_toby.puede_mover))
+//show_debug_message("Choque: "+string(obj_toby.puede_mover))
 </string>
           </argument>
         </arguments>

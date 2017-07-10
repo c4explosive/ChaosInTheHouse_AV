@@ -26,7 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>/// Hyper Self
-
+scr_play_snd(snd_touchblock);
 obj_keys_control.nkeys+=1;
 show_debug_message("Keys:: "+string(obj_keys_control.nkeys));
 

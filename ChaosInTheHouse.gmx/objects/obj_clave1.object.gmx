@@ -94,6 +94,7 @@ if(IDt == obj_generate_claves.current_cpos and obj_generate_claves.state_blocks[
     //show_debug_message("Current bpos: "+string(obj_generate_claves.correct_enter_order[pos+1]))
         obj_generate_claves.current_cpos=obj_generate_claves.correct_enter_order[pos+1];
     sprite_index=spr_enterOk
+    scr_play_snd(snd_touchblock);
 }
 else if (obj_generate_claves.state_blocks[pos]==0)
 {
