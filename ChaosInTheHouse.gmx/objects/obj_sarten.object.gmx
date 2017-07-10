@@ -27,6 +27,7 @@
             <kind>1</kind>
             <string>/// get sarten + get array
 //obj_start.habilidades[0]=spr_libertansart_fire;
+obj_start.num_habilidades+=1;
 obj_start.habilidades=scr_add_to_array(obj_start.habilidades,
                             spr_libertansart_fire)
 </string>
@@ -35,23 +36,17 @@ obj_start.habilidades=scr_add_to_array(obj_start.habilidades,
       </action>
       <action>
         <libid>1</libid>
-        <id>224</id>
+        <id>222</id>
         <kind>0</kind>
         <userelative>0</userelative>
         <isquestion>0</isquestion>
         <useapplyto>0</useapplyto>
         <exetype>1</exetype>
-        <functionname>action_another_room</functionname>
+        <functionname>action_next_room</functionname>
         <codestring></codestring>
         <whoName>self</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>11</kind>
-            <room>iceroom_2</room>
-          </argument>
-        </arguments>
       </action>
     </event>
   </events>
