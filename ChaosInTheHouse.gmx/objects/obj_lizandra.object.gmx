@@ -3,7 +3,7 @@
   <spriteName>spr_lizandra_down</spriteName>
   <solid>0</solid>
   <visible>-1</visible>
-  <depth>0</depth>
+  <depth>-1</depth>
   <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
@@ -28,6 +28,7 @@
             <string>///declarando...
 randomize();
 tipo_ataque = irandom_range(1,4);
+
 </string>
           </argument>
         </arguments>
@@ -54,6 +55,7 @@ tipo_ataque = irandom_range(1,4);
 randomize();
 tipo_ataque = irandom_range(1,4);
 
+
 </string>
           </argument>
         </arguments>
@@ -78,52 +80,113 @@ tipo_ataque = irandom_range(1,4);
 {
 case 1:
     {
+  //posición de ataque de lizandra  
     obj_lizandra.x = choose(480, 608, 736);
-    //obj_lizandra.y = choose(288, 416, 544);
+
     if (obj_lizandra.x = 480) then
+    {
+        obj_lizandra.y = 416;
         sprite_index = spr_lizandra_der;
-    else if (obj_lizandra.x = 480) then
+    }
+    else if (obj_lizandra.x = 736) then
+    {
+        obj_lizandra.y = 416;
+        sprite_index = spr_lizandra_izq;
+    }
+    else
+    {
+        obj_lizandra.y = choose(288, 544)
+        if (obj_lizandra.y = 288) then
         sprite_index = spr_lizandra_down;
+        else
+        sprite_index = spr_lizandra_up;
+    }
+ //fin posición de ataque        
     instance_create(obj_lizandra.x, obj_lizandra.y+10, obj_ataque_fuego);
     break;
     }
 case 2:
     {
-    obj_lizandra.x = choose(480, 608, 736)
-    obj_lizandra.y = choose(288, 544);
-    if (obj_lizandra.y = 288) then
-        sprite_index = spr_lizandra_down;
+    obj_lizandra.x = choose(480, 608, 736);
+
+    if (obj_lizandra.x = 480) then
+    {
+        obj_lizandra.y = 416;
+        sprite_index = spr_lizandra_der;
+    }
+    else if (obj_lizandra.x = 736) then
+    {
+        obj_lizandra.y = 416;
+        sprite_index = spr_lizandra_izq;
+    }
     else
-        sprite_index = spr_lizandra_mov_up;
+    {
+        obj_lizandra.y = choose(288, 544)
+        if (obj_lizandra.y = 288) then
+        sprite_index = spr_lizandra_down;
+        else
+        sprite_index = spr_lizandra_up;
+    }
     instance_create(obj_lizandra.x, obj_lizandra.y+10, obj_ataque_agua);
     break;
     }
 case 3:
     {
-    obj_lizandra.x = choose(480, 608, 736)
-    obj_lizandra.y = choose(288, 544);
-    if (obj_lizandra.y = 288) then
-        sprite_index = spr_lizandra_down;
+    obj_lizandra.x = choose(480, 608, 736);
+
+    if (obj_lizandra.x = 480) then
+    {
+        obj_lizandra.y = 416;
+        sprite_index = spr_lizandra_der;
+    }
+    else if (obj_lizandra.x = 736) then
+    {
+        obj_lizandra.y = 416;
+        sprite_index = spr_lizandra_izq;
+    }
     else
-        sprite_index = spr_lizandra_mov_up;
+    {
+        obj_lizandra.y = choose(288, 544)
+        if (obj_lizandra.y = 288) then
+        sprite_index = spr_lizandra_down;
+        else
+        sprite_index = spr_lizandra_up;
+    }
     instance_create(obj_lizandra.x, obj_lizandra.y+10, obj_ataque_aire);
     break;
     }
 case 4:
     {
-    obj_lizandra.x = choose(480, 608, 736)
-    obj_lizandra.y = choose(288, 544);
-    if (obj_lizandra.y = 288) then
-        sprite_index = spr_lizandra_down;
+    obj_lizandra.x = choose(480, 608, 736);
+
+    if (obj_lizandra.x = 480) then
+    {
+        obj_lizandra.y = 416;
+        sprite_index = spr_lizandra_der;
+    }
+    else if (obj_lizandra.x = 736) then
+    {
+        obj_lizandra.y = 416;
+        sprite_index = spr_lizandra_izq;
+    }
     else
-        sprite_index = spr_lizandra_mov_up;
+    {
+        obj_lizandra.y = choose(288, 544)
+        if (obj_lizandra.y = 288) then
+        sprite_index = spr_lizandra_down;
+        else
+        sprite_index = spr_lizandra_up;
+    }
     instance_create(obj_lizandra.x, obj_lizandra.y+10, obj_ataque_tierra);
     break;
     }
+
 default:
     break;
     
 }
+
+
 </string>
           </argument>
         </arguments>
@@ -144,11 +207,36 @@ default:
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>choose(30, 60)</string>
+            <string>choose(90,120)</string>
           </argument>
           <argument>
             <kind>4</kind>
             <string>0</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="3" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>
+if (obj_botonf.image_index = 1 and obj_botona.image_index = 1 and obj_botonai.image_index = 1 and obj_botont.image_index = 1) then
+alarm[0] = 0;
+</string>
           </argument>
         </arguments>
       </action>
@@ -165,8 +253,5 @@ default:
   <PhysicsObjectFriction>0.200000002980232</PhysicsObjectFriction>
   <PhysicsObjectAwake>-1</PhysicsObjectAwake>
   <PhysicsObjectKinematic>0</PhysicsObjectKinematic>
-  <PhysicsShapePoints>
-    <point>16,22</point>
-    <point>22,22</point>
-  </PhysicsShapePoints>
+  <PhysicsShapePoints/>
 </object>
