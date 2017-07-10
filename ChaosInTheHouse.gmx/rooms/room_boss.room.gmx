@@ -309,6 +309,7 @@
     <instance objName="obj_paire" x="578" y="366" name="inst_66DBA625" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="90"/>
     <instance objName="obj_paire" x="508" y="367" name="inst_33628ADE" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="90"/>
     <instance objName="obj_paire" x="508" y="338" name="inst_F05CFFF7" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="90"/>
+    <instance objName="obj_start" x="448" y="128" name="inst_66B309D1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_pared2" x="0" y="544" name="inst_B4904A28" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_pared2" x="0" y="512" name="inst_12CE20DC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_pared2" x="0" y="480" name="inst_CE22E2D8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -373,7 +374,6 @@
     <instance objName="obj_toby" x="308" y="81" name="inst_E74B66A5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_cubierta_m1" x="192" y="62" name="inst_EC2E09A9" locked="0" code="" scaleX="0.984615385532379" scaleY="0.5" colour="4294967295" rotation="0"/>
     <instance objName="obj_foto" x="181" y="46" name="inst_E7514BA1" locked="0" code="" scaleX="0.839999973773956" scaleY="0.800000011920929" colour="4294967295" rotation="0"/>
-    <instance objName="obj_start" x="448" y="128" name="inst_66B309D1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bg_suelo_boss" x="32" y="576" w="32" h="32" xo="0" yo="0" id="10000001" name="inst_C699D50B" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
