@@ -207,6 +207,7 @@
     <script>scripts\scr_dialogos.gml</script>
     <script>scripts\scr_desplegar_gui.gml</script>
     <script>scripts\scr_play_snd.gml</script>
+    <script>scripts\scr_add_to_array.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\NES_font</font>
@@ -350,6 +351,7 @@
       <object>objects\obj_vida_grande</object>
       <object>objects\object124</object>
       <object>objects\obj_foldear_niveles</object>
+      <object>objects\draw_pause_gui</object>
     </objects>
     <objects name="obj_air">
       <object>objects\obj_muro</object>

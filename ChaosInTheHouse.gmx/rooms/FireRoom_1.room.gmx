@@ -681,6 +681,7 @@
     <instance objName="obj_mueble" x="288" y="256" name="inst_63006308" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_mueble" x="352" y="256" name="inst_F0BA92C9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_control_level" x="96" y="128" name="inst_F94192DF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_next" x="704" y="416" name="inst_8053C6C3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_switch_2" x="480" y="64" name="inst_C04AD696" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_enemy_field" x="128" y="256" name="field_u" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_enemy_field" x="128" y="64" name="keytf1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -693,7 +694,6 @@
     <instance objName="obj_key" x="544" y="480" name="keyt4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_enemy_fire" x="192" y="320" name="inst_6E48EB3E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_toby" x="32" y="256" name="inst_7D21D33A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_sarten" x="672" y="384" name="inst_EB6A6FAE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

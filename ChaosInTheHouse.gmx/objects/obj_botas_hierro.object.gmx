@@ -53,8 +53,11 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///Esto no se para qué es
-//ds_list_add(obj_start.habilidades, spr_botas_hierro)
+            <string>/// get sarten + get array
+//obj_start.habilidades[0]=spr_libertansart_fire;
+obj_start.num_habilidades+=1;
+obj_start.habilidades=scr_add_to_array(obj_start.habilidades,
+                            spr_botas_hierro)
 </string>
           </argument>
         </arguments>
