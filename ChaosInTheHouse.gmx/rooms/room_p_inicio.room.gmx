@@ -51,8 +51,9 @@
   </views>
   <instances>
     <instance objName="obj_enter" x="576" y="544" name="inst_44433BE6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_start" x="64" y="224" name="inst_8888F691" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_music_control" x="32" y="256" name="inst_3C2F604E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_foldear_niveles" x="32" y="32" name="inst_BCE70979" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_start" x="288" y="224" name="inst_F80149BE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

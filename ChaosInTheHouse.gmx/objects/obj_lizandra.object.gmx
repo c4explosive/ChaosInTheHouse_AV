@@ -83,7 +83,7 @@ case 1:
     if (obj_lizandra.x = 480) then
         sprite_index = spr_lizandra_der;
     else if (obj_lizandra.x = 480) then
-        sprite_index = spr_lizandra_;
+        sprite_index = spr_lizandra_down;
     instance_create(obj_lizandra.x, obj_lizandra.y+10, obj_ataque_fuego);
     break;
     }
@@ -103,7 +103,7 @@ case 3:
     obj_lizandra.x = choose(480, 608, 736)
     obj_lizandra.y = choose(288, 544);
     if (obj_lizandra.y = 288) then
-        sprite_index = spr_lizandra;
+        sprite_index = spr_lizandra_down;
     else
         sprite_index = spr_lizandra_mov_up;
     instance_create(obj_lizandra.x, obj_lizandra.y+10, obj_ataque_aire);
@@ -165,5 +165,8 @@ default:
   <PhysicsObjectFriction>0.200000002980232</PhysicsObjectFriction>
   <PhysicsObjectAwake>-1</PhysicsObjectAwake>
   <PhysicsObjectKinematic>0</PhysicsObjectKinematic>
-  <PhysicsShapePoints/>
+  <PhysicsShapePoints>
+    <point>16,22</point>
+    <point>22,22</point>
+  </PhysicsShapePoints>
 </object>

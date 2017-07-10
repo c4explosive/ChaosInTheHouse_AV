@@ -51,7 +51,6 @@
   </views>
   <instances>
     <instance objName="obj_hielo_desliza" x="544" y="320" name="inst_E761CD86" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_start" x="64" y="384" name="inst_F9E1A54A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_bloque_hielo" x="416" y="192" name="inst_476593E8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_bloque_hielo" x="608" y="96" name="inst_CCB6326D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_bloque_hielo" x="576" y="480" name="inst_8D8ACFB0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
